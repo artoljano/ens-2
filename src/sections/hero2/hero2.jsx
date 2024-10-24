@@ -8,7 +8,10 @@ function hero2() {
     <section className="hero2">
       <div className="hero2-container">
         <div className="hero2-container_left">
-          <h1 className="hero2-title">Lorem Ipsum Dolor.</h1>
+          <h1 className="hero2-title title__heading">
+            Lorem Ipsum <span className="last-word">Dolor</span>.
+          </h1>
+
           <p className="hero2-text">
             {" "}
             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris

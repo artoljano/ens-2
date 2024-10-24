@@ -10,7 +10,10 @@ function hero3() {
           <img src={Siu} alt="" />
         </div>
         <div className="hero3-container_right">
-          <h1 className="hero3-title">Lorem Ipsum Dolor.</h1>
+          <h1 className="hero3-title title__heading">John Doe</h1>
+          <h2 className="hero3-work-title">
+            <span className="last-word">CEO</span>
+          </h2>
           <p className="hero3-text">
             {" "}
             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
