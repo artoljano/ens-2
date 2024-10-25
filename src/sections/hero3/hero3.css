@@ -29,8 +29,8 @@
 
 .hero3-container_left img {
   position: relative;
-  width: 1400px;
-  height: 1000px;
+  width: 1400vh;
+  height: 100%;
   margin-top: 10rem;
   margin-right: 9rem;
 }

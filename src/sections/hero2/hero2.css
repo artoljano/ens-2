@@ -28,21 +28,21 @@
 
 .hero2-container_right img {
   position: relative;
-  width: 1500px;
-  height: 1200px;
-  margin-top: 20rem;
-  margin-right: 9rem;
+  width: 1500vw;
+  height: 100%;
+  margin-top: 20vh;
+  margin-right: 9vw;
 }
 
 .hero2-container_right {
   display: flex;
   position: absolute;
   flex-direction: column;
-  top: 0;
+  top: -12rem;
   right: 2rem;
   justify-content: center;
   align-items: center;
-  height: 800px;
+  height: 1000px;
   width: 40%;
 }
 

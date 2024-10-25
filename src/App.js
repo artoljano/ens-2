@@ -1,6 +1,6 @@
 import React from 'react';
 import {Navbar } from './components'
-import {Hero, Hero2, Hero3, Feat, Footer, Partners } from './sections'
+import {Hero, Hero2, Hero3, Feat, Footer, Partners, Partners1 } from './sections'
 
 import './App.css';
 
@@ -11,8 +11,9 @@ const App = () => (
     <Hero />
     <Hero2 />
     <Hero3 />
+    {/* <Partners1 /> */}
     <Partners/> 
-    <Feat />
+    {/* <Feat /> */}
     <Footer />
   </div>
 );
