@@ -23,44 +23,43 @@
   left: 6rem;
   justify-content: center;
   height: 800px;
-  width: 45%;
+  width: 50%;
 }
 
 .hero2-container_right img {
   position: relative;
-  width: 1500vw;
+  width: 80%;
   height: 100%;
-  margin-top: 20vh;
-  margin-right: 9vw;
+
+  margin-left: 12rem;
 }
 
 .hero2-container_right {
   display: flex;
   position: absolute;
   flex-direction: column;
-  top: -12rem;
-  right: 2rem;
+  top: -6rem;
+  right: 1rem;
   justify-content: center;
-  align-items: center;
-  height: 1000px;
-  width: 40%;
+
+  height: 800px;
+  width: 50%;
 }
 
 .hero2-container_left h1 {
-  text-align: center;
   margin-bottom: 1rem;
   margin-top: -6rem;
-  margin-left: 0;
+  margin-left: 6rem;
 }
 
 .hero2-text {
   position: relative;
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-weight: 500;
   color: black;
-  text-align: center;
+
   margin-bottom: 2rem;
-  margin-left: 2rem;
+  margin-left: 6rem;
 }
 
 .hero2-button {
@@ -79,7 +78,7 @@
   outline-offset: 20px;
   transition: all 400ms cubic-bezier(0.2, 0, 0, 0.8);
   position: absolute;
-  margin-left: 27rem;
+  margin-left: 7.5rem;
   bottom: 10rem;
 }
 

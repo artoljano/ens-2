@@ -52,7 +52,7 @@
   top: 0;
   right: 0rem;
   justify-content: center;
-  align-items: center;
+
   height: 800px;
   width: 60%;
 }
@@ -60,15 +60,15 @@
 .hero-container_right h1 {
   margin-bottom: 1rem;
   margin-top: -6rem;
-  margin-left: 2rem;
+  margin-left: 8rem;
 }
 
 .hero-text {
   position: relative;
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-weight: 500;
   color: black;
-  left: 1rem;
+  left: 8rem;
   margin-bottom: 2rem;
 }
 
@@ -88,7 +88,7 @@
   outline-offset: 20px;
   transition: all 400ms cubic-bezier(0.2, 0, 0, 0.8);
   position: absolute;
-  margin-left: 1rem;
+  margin-left: 9.5rem;
   bottom: 18rem;
 }
 
