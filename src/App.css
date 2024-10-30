@@ -2,6 +2,28 @@
   font-family: var(--font-family);
 }
 
+.container {
+  scroll-snap-type: y mandatory;
+
+  height: 100vh;
+}
+
+.one {
+  scroll-snap-align: start;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.two {
+  scroll-snap-align: start;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .title__heading {
   font-size: 4rem;
   font-weight: 800;

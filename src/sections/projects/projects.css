@@ -22,7 +22,7 @@
   scale: none;
   opacity: 1;
   transform: translate(0px, 0px);
-  width: 45%;
+
   height: 100%;
   background-color: white;
   border-radius: 1rem;
@@ -31,7 +31,15 @@
   position: relative;
   z-index: 10;
   overflow: hidden;
-  margin-left: 4rem;
+
+  border-radius: 1rem;
+  border: double 7px transparent;
+  background-image: linear-gradient(white, white),
+    /* linear-gradient(90deg, #000000, #ff8200, #000000, #ff8200);
+     */
+      linear-gradient(90deg, #000000, #ff8200, #000000, #ff8200);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
 }
 
 .ensproject-image-box-b-image {
@@ -50,7 +58,7 @@
   scale: none;
   opacity: 1;
   transform: translate(0px, 0px);
-  width: 45%;
+
   height: 100%;
   background-color: white;
   border-radius: 25px;
@@ -59,7 +67,14 @@
   position: relative;
   z-index: 10;
   overflow: hidden;
-  margin-right: 4rem;
+
+  border-radius: 1rem;
+  border: double 7px transparent;
+  background-image: linear-gradient(white, white),
+    /* linear-gradient(90deg, #ff8200, #ff8200, #000000, #000000); */
+      linear-gradient(90deg, #000000, #ff8200, #000000, #ff8200);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
 }
 
 .image-box-work {
@@ -93,3 +108,16 @@
   line-height: 125%;
   letter-spacing: 0.04em;
 }
+
+.project-slider {
+  width: 100%;
+}
+/* 
+.ensproject-image-row img {
+  border: 6px solid transparent;
+  border-radius: 1rem;
+  border-image: linear-gradient(90deg, #ff8200, #ff8200, #000000, #000000);
+  border-image-slice: 1;
+
+  background-clip: content-box, border-box;
+} */

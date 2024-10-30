@@ -11,7 +11,7 @@ function hero() {
       </div>
       <div className="hero-container_right">
         <h1 className="hero-title title__heading">
-          We are <span className="last-word">Easy Network</span>{" "}
+          <span className="last-word">Easy Network</span>{" "}
           <span className="solutions">Solutions</span>.
         </h1>
         <p className="hero-text">
