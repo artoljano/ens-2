@@ -20,7 +20,9 @@ function hero2() {
           culpa qui officia deserunt mollit anim id est laborum.
         </p>
 
-        <p className="hero2-button btn-text">Contact Us</p>
+        <div className="btn-container1">
+          <a className="button-65">Contact Us</a>
+        </div>
       </div>
       <div className="hero2-container_right">
         <img src={Goat} alt="" />

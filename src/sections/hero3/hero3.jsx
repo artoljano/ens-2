@@ -22,7 +22,12 @@ function hero3() {
           culpa qui officia deserunt mollit anim id est laborum.
         </p>
 
-        <p className="hero3-button btn-text">Contact Us</p>
+        <button class="button" data-text="Awesome">
+          <span class="actual-text">&nbsp;Contact Us&nbsp;</span>
+          <span aria-hidden="true" class="hover-text">
+            &nbsp;Contact Us&nbsp;
+          </span>
+        </button>
       </div>
     </section>
   );

@@ -19,7 +19,9 @@ function hero() {
           We turn your requests, into perfect solutions.
         </p>
 
-        <p className="hero-button btn-text">Contact Us</p>
+        <div className="btn-container">
+          <a className="btn">Contact Us</a>
+        </div>
       </div>
     </section>
   );
