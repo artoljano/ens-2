@@ -6,7 +6,7 @@ const Navbar = () => {
   const Menu = () => (
     <>
       <p>
-        <a href="#home" className="hover-shadow hover-color">
+        <a href="/" className="hover-shadow hover-color">
           <span>H</span>
           <span>o</span>
           <span>m</span>
@@ -14,7 +14,7 @@ const Navbar = () => {
         </a>
       </p>
       <p>
-        <a href="#wgpt3" className="hover-shadow hover-color">
+        <a href="/products" className="hover-shadow hover-color">
           <span>S</span>
           <span>h</span>
           <span>o</span>
@@ -22,7 +22,7 @@ const Navbar = () => {
         </a>
       </p>
       <p>
-        <a href="#possibility" className="hover-shadow hover-color">
+        <a href="/about" className="hover-shadow hover-color">
           <span>A</span>
           <span>b</span>
           <span>o</span>
@@ -34,7 +34,7 @@ const Navbar = () => {
         </a>
       </p>
       <p>
-        <a href="#features" className="hover-shadow hover-color">
+        <a href="/services" className="hover-shadow hover-color">
           <span>S</span>
           <span>e</span>
           <span>r</span>
@@ -46,7 +46,7 @@ const Navbar = () => {
         </a>
       </p>
       <p>
-        <a href="#blog" className="hover-shadow hover-color">
+        <a href="/projects" className="hover-shadow hover-color">
           <span>O</span>
           <span>u</span>
           <span>r</span>

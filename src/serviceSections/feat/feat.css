@@ -4,7 +4,7 @@
 
   padding: 0 20px;
 
-  margin-top: 330rem;
+  margin-top: 10vh;
 }
 
 .wrapp-title {
@@ -33,14 +33,14 @@
 
 .work {
   display: flex;
-  margin-top: -20px;
+  margin-top: 20px;
 }
 
 .work-left {
   position: relative;
   width: 54%;
   z-index: 2;
-
+  margin-top: -10vh;
   color: black;
 }
 
@@ -133,6 +133,7 @@
   cursor: pointer;
   border-radius: 80px;
   overflow: hidden;
+  margin-top: 2vh;
 }
 
 .work-photo-item img {
@@ -161,44 +162,41 @@
 
 .work-info-bar {
   position: absolute;
-  background-color: black;
+  background-color: var(--color-logo-orange);
   opacity: 0.5;
   bottom: -50px;
-  height: 1px;
+  height: 2px;
   width: 400px;
 }
 
 .work-body {
   display: flex;
+  flex-direction: column;
   margin-top: 0;
 }
 
-.work-body p {
-  flex-shrink: 0;
+.work-service_desc p {
   color: 10px;
-  width: 110px;
+
   padding-top: 5px;
 }
 
-.work-body-description {
+.work-service_off {
   display: flex;
   flex-direction: column;
-  flex-shrink: 0;
-  width: 250px;
+  gap: 1vw;
+  margin-top: 2vh;
 }
 
-.work-body-description-first {
-  color: 14px;
-
-  @media (min-width: 1024px) {
-    color: 16px;
-  }
+.work-service_off_single {
+  display: flex;
+  max-width: 200px;
+  width: 100%;
+  flex-direction: row;
+  gap: 0.5vw;
+  margin-top: 2vh;
 }
 
-.work-body-description-second {
-  color: 14px;
-
-  @media (min-width: 1024px) {
-    color: 16px;
-  }
+.work-service_off_row {
+  gap: 8vw;
 }

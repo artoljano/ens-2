@@ -1,27 +1,38 @@
 import React from 'react';
 import {Navbar, Navbar1 } from './components'
-import {Hero, Hero2, Hero3, Feat, Footer, Partners, Partners1, Solutions, Projects } from './sections'
+import {Hero, Hero2, Hero3, Feat, Footer, Partners, Partners1, Solutions, Projects } from './homeSections'
+
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+} from "react-router-dom";
+
+import Home from "./pages/Home";
+import About from "./pages/AboutUs";
+import Products from "./pages/Products";
+import Services from "./pages/Services";
+import Work from "./pages/Work";
 
 import './App.css';
 
 const App = () => (
-  <div>
-
-    {/* <Navbar /> */}
-    <Navbar1 />
-    <Hero />
-    <div  className='container'>
-    <Hero2 className='one'/>
-    <Hero3 className='two'/>
-    </div>
-    
-    <Partners1 />
-    <Projects />
-    {/* <Solutions /> */}
-    {/* <Partners/>  */}
-    {/* <Feat /> */}
-    <Footer />
-  </div>
+  <Router>
+            <Navbar1 />
+            <Routes>
+                <Route exact path="/" element={<Home />} />
+                <Route path="/about" element={<About />} />
+                <Route
+                    path="/services"
+                    element={<Services />}
+                />
+                <Route path="/products" element={<Products />} />
+                <Route
+                    path="/projects"
+                    element={<Work />}
+                />
+            </Routes>
+        </Router>
 );
 
 export default App;

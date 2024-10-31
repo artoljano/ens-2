@@ -14,10 +14,7 @@ function hero() {
           <span className="last-word">Easy Network</span>{" "}
           <span className="solutions">Solutions</span>.
         </h1>
-        <p className="hero-text">
-          {" "}
-          We turn your requests, into perfect solutions.
-        </p>
+        <p className="hero-text"> The Masters Behind The Curtains.</p>
 
         <div className="btn-container">
           <a className="btn">Contact Us</a>
