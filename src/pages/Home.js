@@ -1,6 +1,6 @@
 import React from 'react';
 import {Navbar, Navbar1 } from '../components'
-import {Hero, Hero2, Hero3, Feat, Footer, Partners, Partners1, Solutions, Projects } from '../homeSections'
+import {Hero, Hero2, Hero3,  Footer,  Partners1, Projects, About } from '../homeSections'
 
 import {
   BrowserRouter as Router,
@@ -15,10 +15,10 @@ const Home = () => (
     {/* <Navbar /> */}
     
     <Hero />
-    <div  className='container'>
-    <Hero2 className='one'/>
-    <Hero3 className='two'/>
-    </div>
+   
+    <Hero2 />
+    <Hero3 />
+    <About />
     
     <Partners1 />
     <Projects />

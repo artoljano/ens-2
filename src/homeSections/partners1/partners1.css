@@ -4,7 +4,7 @@
   height: 1300px;
   padding: 0 20px;
   left: 0;
-  margin-top: 160rem;
+  margin-top: 460rem;
 }
 
 .container {
@@ -14,10 +14,11 @@
 
 .partners1-content {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   width: 100%;
   height: 100%;
-  margin-top: 6rem;
+  margin-top: 10vh;
+  margin-left: 6vw;
   /* margin-left: 2rem;
     margin-right: 2rem; */
 }
@@ -26,16 +27,17 @@
   font-size: 1.5rem;
   font-weight: 500;
   font-family: var(--font-family);
+
+  margin-top: 6rem;
+  margin-left: 4rem;
 }
 
 .parterns1-cards {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  flex-direction: column;
 
-  margin-top: 6rem;
+  width: 50%;
   margin-left: 2rem;
-  margin-right: 2rem;
 }
 
 .parterns1-card-image {
@@ -43,15 +45,54 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 30%;
+  width: 70%;
   height: 400px;
+  margin-top: 2rem;
 
+  margin-right: 0;
   border: double 7px transparent;
   border-radius: 1rem;
   background-image: linear-gradient(white, white),
     linear-gradient(90deg, #ff8200, #ff8200, #000000, #000000);
   background-origin: border-box;
   background-clip: content-box, border-box;
+}
+
+.partners1-content_left {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.parterns1-card-image_left {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 70%;
+  height: 400px;
+  margin-top: 9vh;
+  margin-left: 14vw;
+  margin-right: 0;
+  border: double 7px transparent;
+  border-radius: 1rem;
+  background-image: linear-gradient(white, white),
+    linear-gradient(90deg, #ff8200, #ff8200, #000000, #000000);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+}
+
+.parterns1-card-image_left img {
+  position: absolute;
+
+  border-radius: 0.6rem;
+  /* border-image: linear-gradient(90deg, #ff8200, #ff8200, #000000, #000000);
+  border-image-slice: 1;
+
+  background-clip: content-box, border-box; */
+  width: 100%;
+  height: 100%;
 }
 
 .parterns1-card-image img {
@@ -71,6 +112,16 @@
   background-color: black;
 }
 .parterns1-card-image #img2:hover {
+  opacity: 0;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.parterns1-card-image_left #img2 {
+  /* background-color: var(--color-logo-orange); */
+  background-color: black;
+}
+.parterns1-card-image_left #img2:hover {
   opacity: 0;
   cursor: pointer;
   transition: 1s;

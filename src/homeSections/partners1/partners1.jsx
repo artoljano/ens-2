@@ -19,17 +19,23 @@ function partners1() {
       <p className="p-divider"></p>
 
       <div className="partners1-content">
-        <p className="content-text">
-          In today’s interconnected world, partnerships are the cornerstone of
-          success. By collaborating with trusted partners, we’re able to
-          leverage unique expertise, drive innovation, and expand our reach.
-          Together, we build stronger solutions, enhance service quality, and
-          create value that extends beyond what we could achieve alone. Our
-          partnerships are founded on mutual trust and a shared vision, enabling
-          us to better serve our clients and contribute positively to our
-          industries and communities.
-        </p>
+        <div className="partners1-content_left">
+          <p className="content-text">
+            In today’s interconnected world, partnerships are the cornerstone of
+            success. By collaborating with trusted partners, we’re able to
+            leverage unique expertise, drive innovation, and expand our reach.
+            Together, we build stronger solutions, enhance service quality, and
+            create value that extends beyond what we could achieve alone. Our
+            partnerships are founded on mutual trust and a shared vision,
+            enabling us to better serve our clients and contribute positively to
+            our industries and communities.
+          </p>
 
+          <div className="parterns1-card-image_left">
+            <img src={Ruckus} id="img1" />
+            <img src={RuckusLogo} id="img2" />
+          </div>
+        </div>
         <div className="parterns1-cards">
           <div className="parterns1-card-image">
             <img src={Jung} id="img1" />
@@ -38,10 +44,6 @@ function partners1() {
           <div className="parterns1-card-image">
             <img src={Mikrotik} id="img1" />
             <img src={MikrotikLogo} id="img2" />
-          </div>
-          <div className="parterns1-card-image">
-            <img src={Ruckus} id="img1" />
-            <img src={RuckusLogo} id="img2" />
           </div>
         </div>
       </div>
