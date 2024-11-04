@@ -7,3 +7,4 @@ export { default as Partners} from './partners/partners';
 export { default as Partners1} from './partners1/partners1';
 export { default as Solutions} from './solutions/solutions';
 export { default as Projects} from './projects/projects';
+export { default as About} from './about/about';

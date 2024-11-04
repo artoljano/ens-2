@@ -15,10 +15,13 @@ const Navbar = () => {
       </p>
       <p>
         <a href="/products" className="hover-shadow hover-color">
-          <span>S</span>
-          <span>h</span>
+          <span>P</span>
+          <span>r</span>
           <span>o</span>
-          <span>p</span>
+          <span>d</span>
+          <span>u</span>
+          <span>t</span>
+          <span>s</span>
         </a>
       </p>
       <p>
@@ -28,9 +31,6 @@ const Navbar = () => {
           <span>o</span>
           <span>u</span>
           <span>t</span>
-          <span> </span>
-          <span>U</span>
-          <span>s</span>
         </a>
       </p>
       <p>
@@ -47,10 +47,10 @@ const Navbar = () => {
       </p>
       <p>
         <a href="/projects" className="hover-shadow hover-color">
-          <span>O</span>
+          {/* <span>O</span>
           <span>u</span>
           <span>r</span>
-          <span> </span>
+          <span> </span> */}
           <span>W</span>
           <span>o</span>
           <span>r</span>

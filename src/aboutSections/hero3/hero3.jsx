@@ -1,6 +1,6 @@
 import React from "react";
 import "./hero3.css";
-import hero4 from "../../assets/hero/hero4.png";
+import Siu from "../../assets/hero/siu.png";
 import { motion } from "framer-motion";
 
 function hero3() {
@@ -13,11 +13,13 @@ function hero3() {
       exit={{ opacity: 1 }}
     >
       <div className="hero3-container_left">
-        <img src={hero4} alt="" />
+        <img src={Siu} alt="" />
       </div>
       <div className="hero3-container_right">
         <h1 className="hero3-title title__heading">John Doe</h1>
-
+        <h2 className="hero3-work-title">
+          <span className="last-word">CEO</span>
+        </h2>
         <p className="hero3-text">
           {" "}
           Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris

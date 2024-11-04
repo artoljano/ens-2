@@ -1,11 +1,19 @@
 import React from "react";
 import "./hero2.css";
 
-import Goat from "../../assets/hero/goat.png";
+import hero6 from "../../assets/hero/hero6.png";
+
+import { motion } from "framer-motion";
 
 function hero2() {
   return (
-    <section className="hero2">
+    <motion.section
+      className="hero2"
+      initial={{ y: "100%" }}
+      animate={{ y: "0%" }}
+      transition={{ duration: 0.75, ease: "easeOut" }}
+      exit={{ opacity: 1 }}
+    >
       <div className="hero2-container_left">
         <h1 className="hero2-title title__heading">
           Lorem Ipsum <span className="last-word">Dolor</span>.
@@ -25,9 +33,9 @@ function hero2() {
         </div>
       </div>
       <div className="hero2-container_right">
-        <img src={Goat} alt="" />
+        <img src={hero6} alt="" />
       </div>
-    </section>
+    </motion.section>
   );
 }
 

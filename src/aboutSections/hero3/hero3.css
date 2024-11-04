@@ -4,7 +4,7 @@
 
   width: 100%;
   left: 0;
-  top: 125rem;
+  top: 133rem;
 
   scroll-snap-align: start;
   height: 100vh;
@@ -35,7 +35,7 @@
 
 .hero3-container_left img {
   position: relative;
-  width: 100%;
+  width: 60%;
   height: 100%;
 
   margin-right: 12rem;
