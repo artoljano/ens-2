@@ -29,7 +29,8 @@
 
 .services-hero_wrap {
   display: grid;
-  grid-template-columns: 7fr 5fr;
+  width: 100%;
+  grid-template-columns: 7fr 7fr;
   grid-gap: 20vw;
   -webkit-box-align: center;
   -webkit-align-items: center;
