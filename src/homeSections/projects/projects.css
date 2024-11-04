@@ -4,7 +4,7 @@
   height: 1300px;
   padding: 0 20px;
   left: 0;
-  margin-top: 328rem;
+  margin-top: 385rem;
 }
 
 .ensproject-image-row {
@@ -33,13 +33,6 @@
   overflow: hidden;
 
   border-radius: 1rem;
-  border: double 7px transparent;
-  background-image: linear-gradient(white, white),
-    /* linear-gradient(90deg, #000000, #ff8200, #000000, #ff8200);
-     */
-      linear-gradient(90deg, #000000, #ff8200, #000000, #ff8200);
-  background-origin: border-box;
-  background-clip: content-box, border-box;
 }
 
 .ensproject-image-box-b-image {
@@ -69,12 +62,12 @@
   overflow: hidden;
 
   border-radius: 1rem;
-  border: double 7px transparent;
+  /* border: double 7px transparent;
   background-image: linear-gradient(white, white),
     /* linear-gradient(90deg, #ff8200, #ff8200, #000000, #000000); */
-      linear-gradient(90deg, #000000, #ff8200, #000000, #ff8200);
-  background-origin: border-box;
-  background-clip: content-box, border-box;
+  /* linear-gradient(90deg, #000000, #ff8200, #000000, #ff8200); */
+  /* background-origin: border-box;
+  background-clip: content-box, border-box; */
 }
 
 .image-box-work {
