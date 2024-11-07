@@ -11,14 +11,15 @@ import Quote from "../../assets/partners/quote.png";
 
 function partners1() {
   return (
-    <section className="partners1">
-      <h1 className="title__heading wrapp-title">
-        Building strong <span className="dot">Partnerships</span> for more than
-        20 Years
-        <span className="dot">.</span>
-      </h1>
-      <p className="p-divider"></p>
-
+    <section className="partners1 section__padding">
+      <div className="about-title">
+        <h1 className="title__heading wrapp-title">
+          Building strong <span className="dot">Partnerships</span> for more
+          than 20 Years
+          <span className="dot">.</span>
+        </h1>
+        <p className="p-divider"></p>
+      </div>
       <div className="partners1-content">
         <div className="partners1-content_left">
           <p className="content-text">
@@ -48,13 +49,13 @@ function partners1() {
 
           <div className="testimonial-container" id="first-testimonial">
             <p className="testimonial">
-              Working with this team has been a transformative experience. They
-              go above and beyond, not just meeting project requirements but
-              truly understanding our vision and goals. Their commitment to
-              quality and their collaborative approach make them an invaluable
-              partner. We trust them implicitly and know they always have our
-              best interests at heart. They don’t just deliver solutions—they
-              create lasting value for our business.
+              Working with ENS has been a transformative experience. They go
+              above and beyond, not just meeting project requirements but truly
+              understanding our vision and goals. Their commitment to quality
+              and their collaborative approach make them an invaluable partner.
+              We trust them implicitly and know they always have our best
+              interests at heart. They don’t just deliver solutions—they create
+              lasting value for our business.
             </p>
             <p className="testimonial-author">Filan Fisteku</p>
             <p className="author-company">Jung</p>
@@ -62,7 +63,7 @@ function partners1() {
 
           <div className="testimonial-container">
             <p className="testimonial">
-              Partnering with this team has been a game-changer for us. Their
+              Partnering with ENS has been a game-changer for us. Their
               commitment to understanding our needs and their proactive
               communication make every project feel seamless. They bring not
               only expertise but also genuine care and dedication to everything

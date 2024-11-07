@@ -8,7 +8,7 @@ import { motion } from "framer-motion";
 function hero2() {
   return (
     <motion.section
-      className="hero2"
+      className="hero2 section__padding"
       initial={{ y: "100%" }}
       animate={{ y: "0%" }}
       transition={{ duration: 0.75, ease: "easeOut" }}

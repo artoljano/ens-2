@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 function hero3() {
   return (
     <motion.section
-      className="hero3"
+      className="hero3 section__padding"
       initial={{ y: "100%" }}
       animate={{ y: "0%" }}
       transition={{ duration: 0.75, ease: "easeOut" }}
@@ -27,12 +27,19 @@ function hero3() {
           culpa qui officia deserunt mollit anim id est laborum.
         </p>
 
-        <button class="button" data-text="Awesome">
-          <span class="actual-text">&nbsp;Contact Us&nbsp;</span>
-          <span aria-hidden="true" class="hover-text">
-            &nbsp;Contact Us&nbsp;
-          </span>
-        </button>
+        <a href="/about" className="button-text">
+          <span>c</span>
+          <span>o</span>
+          <span>n</span>
+          <span>t</span>
+          <span>a</span>
+          <span>c</span>
+          <span>t</span>
+          <span> </span>
+          <span>u</span>
+          <span>s</span>
+          <span>.</span>
+        </a>
       </div>
     </motion.section>
   );

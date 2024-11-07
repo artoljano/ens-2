@@ -13,7 +13,7 @@ import { FreeMode, Pagination, Autoplay } from "swiper/modules";
 
 function projects() {
   return (
-    <section className="projects">
+    <section className="projects section__padding">
       <h1 className="title__heading wrapp-title">
         Our <span className="dot">Projects</span>.
       </h1>

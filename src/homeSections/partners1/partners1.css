@@ -1,15 +1,11 @@
 .partners1 {
-  position: absolute;
-  width: 100%;
-  height: 150vh;
-  padding: 0 20px;
-  left: 0;
-  margin-top: 560rem;
-}
-
-.container {
-  width: 100%;
-  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  position: relative;
+  min-height: 800px;
+  margin-top: 10vh;
+  border: 8px solid red;
 }
 
 .partners1-content {
@@ -18,31 +14,46 @@
   width: 100%;
   height: 100%;
   margin-top: 10vh;
-  margin-left: 6vw;
+
   /* margin-left: 2rem;
     margin-right: 2rem; */
+
+  border: 8px solid blue;
+}
+
+.partners1-content_left {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.partners1-content_left svg {
+  width: 100px;
+  margin-bottom: auto;
 }
 
 .content-text {
   font-size: 1.5rem;
   font-weight: 500;
   font-family: var(--font-family);
-
-  margin-top: 6rem;
+  margin-top: 10vh;
+  border: 8px solid yellow;
 }
 
 #first-testimonial {
   display: flex;
   flex-direction: column;
-  margin-top: 2vh;
   margin-top: 20vh;
+
+  border: 8px solid orange;
 }
 
 .testimonial-container {
   display: flex;
   flex-direction: column;
-  margin-top: 2vh;
   margin-top: 15vh;
+  border: 8px solid purple;
 }
 
 .testimonial {
@@ -67,48 +78,33 @@
 .parterns1-cards {
   display: flex;
   flex-direction: column;
-
   width: 50%;
   margin-left: 4vw;
+  border: 8px solid green;
 }
 
 .parterns1-card-image {
   position: relative;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  width: 70%;
-  height: 900px;
-  margin-top: 2rem;
 
+  width: 100%;
+  min-height: 600px;
   border: double 7px transparent;
   border-radius: 1rem;
   /* background-image: linear-gradient(white, white),
     linear-gradient(90deg, #ff8200, #ff8200, #000000, #000000);
   background-origin: border-box;
   background-clip: content-box, border-box; */
-}
 
-.partners1-content_left {
-  width: 50%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-}
-
-.partners1-content_left svg {
-  width: 100px;
-  position: absolute;
-  margin-top: 35vh;
+  border: 8px solid cyan;
 }
 
 .parterns1-card-image img {
   position: absolute;
-
   border-radius: 0.6rem;
   /* border-image: linear-gradient(90deg, #ff8200, #ff8200, #000000, #000000);
   border-image-slice: 1;
-
   background-clip: content-box, border-box; */
   width: 100%;
   height: 100%;

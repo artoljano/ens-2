@@ -1,24 +1,30 @@
 .about {
-  position: absolute;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  position: relative;
+  min-height: 800px;
+  margin-top: 30vh;
 
-  width: 100%;
-  height: 100vh;
-  margin-top: 195rem;
-  margin-left: 3vw;
-  margin-right: 3vw;
+  border: 8px solid red;
 }
 
 .about-container {
-  width: 100%;
-  height: 100%;
   display: flex;
   flex-direction: row;
-  margin-top: 8rem;
+
+  border: 8px solid blue;
+}
+
+.about-title {
+  margin-bottom: 5vh;
 }
 
 .left-container {
-  width: 25%;
+  width: 30%;
   height: 100%;
+  padding-left: 2vw;
+  border: 8px solid yellow;
 }
 
 .left-container_para {
@@ -37,14 +43,16 @@
 }
 
 .about-right {
-  position: relative;
-
-  width: 70%;
+  width: 100%;
   height: 100%;
+  margin-right: 0;
   margin-left: 2vw;
+  border: 8px solid orange;
 }
 
 .right-container {
+  position: relative;
+
   display: flex;
   flex-direction: row;
 }
@@ -53,10 +61,11 @@
   height: 100%;
   width: 33%;
   margin-right: 2vw;
+  padding-left: 2vw;
 }
 .right-container-card img {
   width: 600px;
-  height: 600px;
+  height: 500px;
   border: 0px solid white;
   border-radius: 8px;
 }

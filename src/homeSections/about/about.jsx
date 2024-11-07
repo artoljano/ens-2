@@ -7,12 +7,13 @@ import Loyalty from "../../assets/about/loyalty-m.jpg";
 
 function about() {
   return (
-    <section className="about">
-      <h1 className="title__heading wrapp-title">
-        <span className="dot">About</span> Us<span className="dot">.</span>
-      </h1>
-      <p className="p-divider"></p>
-
+    <section className="about section__padding">
+      <div className="about-title">
+        <h1 className="title__heading wrapp-title">
+          <span className="dot">About</span> Us<span className="dot">.</span>
+        </h1>
+        <p className="p-divider"></p>
+      </div>
       <div className="about-left">
         <div className="about-container">
           <div className="left-container">

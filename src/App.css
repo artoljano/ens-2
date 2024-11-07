@@ -8,6 +8,10 @@
   height: 100vh;
 }
 
+.section__padding {
+  margin-left: 2vw;
+  margin-right: 2vw;
+}
 .one {
   scroll-snap-align: start;
   height: 100vh;

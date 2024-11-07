@@ -1,10 +1,42 @@
 .hero {
+  display: flex;
+  flex-direction: row;
   background-color: white;
+  position: relative;
+  min-height: 800px;
+  margin-top: 10vh;
+  /* border: 8px solid red; */
+}
+
+.hero-container_left {
+  display: flex;
+  position: relative;
+  width: 50%;
+  min-height: 800px;
+  justify-content: center;
+  align-items: center;
+  /* height: 800px; */
+
+  /* border: 8px solid blue; */
+}
+
+.hero-container_left img {
+  margin-right: 20vw;
+  max-height: 1400px;
+  min-height: 1000px;
+  min-width: 1400px;
   position: absolute;
-  height: 1200vh;
-  width: 100%;
-  left: 0;
-  top: 18vh;
+
+  /* border: 8px solid blue; */
+}
+
+.hero-container_right {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  min-height: 800px;
+  width: 60%;
+  /* border: 8px solid orange; */
 }
 
 .solutions {
@@ -16,51 +48,9 @@
   color: var(--color-logo-orange);
 }
 
-.hero-cotainer {
-  display: flex;
-  flex-direction: row;
-  position: relative;
-  height: 800vh;
-  width: 100%;
-}
-
-.hero-container_left {
-  display: flex;
-  position: absolute;
-
-  top: 0;
-  left: 2vw;
-  justify-content: center;
-  align-items: center;
-  height: 800px;
-  width: 100%;
-}
-
-.hero-container_left img {
-  position: relative;
-  max-width: 100%;
-
-  max-height: 1400vh;
-  margin-top: 9.1vh;
-  margin-right: 100rem;
-}
-
-.hero-container_right {
-  display: flex;
-  position: absolute;
-  flex-direction: column;
-  top: 0;
-  right: 0rem;
-  justify-content: center;
-
-  height: 800px;
-  width: 60%;
-}
-
 .hero-container_right h1 {
+  margin-top: 25%;
   margin-bottom: 1rem;
-  margin-top: -6rem;
-  margin-left: 8rem;
 }
 
 .hero-text {
@@ -68,14 +58,13 @@
   font-size: 1.3rem;
   font-weight: 500;
   color: black;
-  left: 8rem;
   margin-bottom: 2rem;
 }
 
 .btn {
   flex: 1 1 auto;
-  margin: 10px;
-  padding: 30px;
+  max-width: 20rem;
+  padding: 1.2rem;
   font-size: 1.1rem;
   font-weight: 600;
   text-align: center;
@@ -101,11 +90,7 @@
 
 .btn-container {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
   flex-wrap: wrap;
-
-  width: 40vh;
-  margin-left: 7.5rem;
+  justify-content: left;
+  max-width: 40vh;
 }

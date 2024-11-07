@@ -5,7 +5,7 @@ import HeroImage from "../../assets/hero/Hero.png";
 
 function hero() {
   return (
-    <section className="hero">
+    <section className="hero section__padding">
       <div className="hero-container_left">
         <img src={HeroImage} alt="" />
       </div>
