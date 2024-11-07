@@ -4,8 +4,8 @@
   background-color: white;
   position: relative;
   min-height: 800px;
-  margin-top: 10vh;
-  border: 8px solid red;
+  margin-top: 30vh;
+  /* border: 8px solid red; */
 }
 
 .partners1-content {
@@ -18,7 +18,7 @@
   /* margin-left: 2rem;
     margin-right: 2rem; */
 
-  border: 8px solid blue;
+  /* border: 8px solid blue; */
 }
 
 .partners1-content_left {
@@ -30,7 +30,7 @@
 
 .partners1-content_left svg {
   width: 100px;
-  margin-bottom: auto;
+  margin-bottom: 2vh;
 }
 
 .content-text {
@@ -38,7 +38,7 @@
   font-weight: 500;
   font-family: var(--font-family);
   margin-top: 10vh;
-  border: 8px solid yellow;
+  /* border: 8px solid yellow; */
 }
 
 #first-testimonial {
@@ -46,14 +46,14 @@
   flex-direction: column;
   margin-top: 20vh;
 
-  border: 8px solid orange;
+  /* border: 8px solid orange; */
 }
 
 .testimonial-container {
   display: flex;
   flex-direction: column;
   margin-top: 15vh;
-  border: 8px solid purple;
+  /* border: 8px solid purple; */
 }
 
 .testimonial {
@@ -80,7 +80,7 @@
   flex-direction: column;
   width: 50%;
   margin-left: 4vw;
-  border: 8px solid green;
+  /* border: 8px solid green; */
 }
 
 .parterns1-card-image {
@@ -97,7 +97,7 @@
   background-origin: border-box;
   background-clip: content-box, border-box; */
 
-  border: 8px solid cyan;
+  /* border: 8px solid cyan; */
 }
 
 .parterns1-card-image img {
@@ -113,6 +113,7 @@
 .parterns1-card-image #img2 {
   /* background-color: var(--color-logo-orange); */
   background-color: black;
+  padding: 2vw;
 }
 .parterns1-card-image #img2:hover {
   opacity: 0;

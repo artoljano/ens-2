@@ -4,7 +4,7 @@
   background-color: white;
   position: relative;
   min-height: 800px;
-  margin-top: 10vh;
+  margin-top: 20vh;
   /* border: 8px solid red; */
 }
 
@@ -61,12 +61,12 @@
 }
 
 .button-text {
-  font-size: 2rem;
-  font-weight: 600;
+  font-size: 4rem;
 }
 
 a span {
-  font-weight: 600;
+  font-style: bold;
+  font-weight: 800;
   transition: all 0.4s;
   padding-top: 10vh;
 }
@@ -89,7 +89,7 @@ a span:nth-child(7) {
   transition-delay: 0.6s;
 }
 a:hover span {
-  font-weight: 600;
+  font-weight: 800;
   color: var(--color-logo-orange);
 }
 a:hover span:nth-child(5) {

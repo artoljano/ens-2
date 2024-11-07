@@ -3,7 +3,7 @@
   flex-direction: row;
   position: relative;
   min-height: 800px;
-  margin-top: 10vh;
+  margin-top: 30vh;
   background-color: white;
   display: flex;
   /* border: 8px solid red; */
@@ -37,6 +37,7 @@
 }
 
 .hero2-container_left h1 {
+  font-size: 4.5rem;
   margin-bottom: 1rem;
   margin-left: 5vw;
   /* border: 8px solid blue; */
@@ -44,8 +45,8 @@
 
 .hero2-text {
   position: relative;
-  font-size: 1.3rem;
-  font-weight: 500;
+  font-size: 1.5rem;
+  font-weight: 400;
   color: black;
   margin-bottom: 2rem;
   margin-left: 5vw;

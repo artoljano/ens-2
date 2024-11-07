@@ -1,6 +1,6 @@
 import React from 'react';
 import {Navbar, Navbar1 } from '../components'
-import {Hero, Hero2, Hero3,  Footer,  Partners1, Projects, About } from '../homeSections'
+import {Hero, Hero2, Hero3,  Footer, Partners,  Partners1, Projects, About } from '../homeSections'
 
 import {
   BrowserRouter as Router,
@@ -11,16 +11,13 @@ import {
 
 const Home = () => (
   <div>
-
     {/* <Navbar /> */}
-    
     <Hero />
-   
+    <About />
     <Hero2 />
     <Hero3 />
-    <About />
     
-    <Partners1 />
+    <Partners />
     <Projects />
     {/* <Solutions /> */}
     {/* <Partners/>  */}

@@ -6,7 +6,7 @@ const Navbar = () => {
   const Menu = () => (
     <>
       <p>
-        <a href="/" className="hover-shadow hover-color">
+        <a href="/" className="hover-shadow hover-color nav-item">
           <span>H</span>
           <span>o</span>
           <span>m</span>
@@ -14,7 +14,7 @@ const Navbar = () => {
         </a>
       </p>
       <p>
-        <a href="/products" className="hover-shadow hover-color">
+        <a href="/products" className="hover-shadow hover-color nav-item">
           <span>P</span>
           <span>r</span>
           <span>o</span>
@@ -25,7 +25,7 @@ const Navbar = () => {
         </a>
       </p>
       <p>
-        <a href="/about" className="hover-shadow hover-color">
+        <a href="/about" className="hover-shadow hover-color nav-item">
           <span>A</span>
           <span>b</span>
           <span>o</span>
@@ -34,7 +34,7 @@ const Navbar = () => {
         </a>
       </p>
       <p>
-        <a href="/services" className="hover-shadow hover-color">
+        <a href="/services" className="hover-shadow hover-color nav-item">
           <span>S</span>
           <span>e</span>
           <span>r</span>
@@ -46,7 +46,7 @@ const Navbar = () => {
         </a>
       </p>
       <p>
-        <a href="/projects" className="hover-shadow hover-color">
+        <a href="/projects" className="hover-shadow hover-color nav-item">
           {/* <span>O</span>
           <span>u</span>
           <span>r</span>
@@ -55,6 +55,17 @@ const Navbar = () => {
           <span>o</span>
           <span>r</span>
           <span>k</span>
+        </a>
+      </p>
+      <p>
+        <a href="/projects" className="hover-shadow hover-color nav-item">
+          <span>C</span>
+          <span>o</span>
+          <span>n</span>
+          <span>t</span>
+          <span>a</span>
+          <span>c</span>
+          <span>t</span>
         </a>
       </p>
     </>
@@ -81,7 +92,9 @@ const Navbar = () => {
         }
       >
         <div className="ens__navbar-links_logo">
-          <img src={logo} alt="logo" />
+          <a href="/">
+            <img src={logo} alt="logo" />
+          </a>
         </div>
 
         <div className="ens__navbar-links_container">

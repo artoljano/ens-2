@@ -44,29 +44,39 @@ function footer() {
               <div className="paragraph-white small space">Quick Links</div>
               <a
                 href="/ens-design/index.html"
-                className="footer-link w-inline-block hover-shadow hover-color"
+                className="footer-link w-inline-block hover-shadow hover-color  nav-item"
               >
-                <span>S</span>
-                <span>h</span>
+                <span>H</span>
                 <span>o</span>
-                <span>p</span>
+                <span>m</span>
+                <span>e</span>
               </a>
               <a
                 href="/ens-design/index.html"
-                className="footer-link w-inline-block"
+                className="footer-link w-inline-block hover-shadow hover-color  nav-item"
+              >
+                <span>P</span>
+                <span>r</span>
+                <span>o</span>
+                <span>d</span>
+                <span>u</span>
+                <span>c</span>
+                <span>t</span>
+                <span>s</span>
+              </a>
+              <a
+                href="/ens-design/index.html"
+                className="footer-link w-inline-block nav-item"
               >
                 <span>A</span>
                 <span>b</span>
                 <span>o</span>
                 <span>u</span>
                 <span>t</span>
-                <span> </span>
-                <span>U</span>
-                <span>s</span>
               </a>
               <a
                 href="/ens-design/index.html"
-                className="footer-link w-inline-block"
+                className="footer-link w-inline-block  nav-item"
               >
                 <span>S</span>
                 <span>e</span>
@@ -79,12 +89,8 @@ function footer() {
               </a>
               <a
                 href="/ens-design/index.html"
-                className="footer-link w-inline-block"
+                className="footer-link w-inline-block  nav-item"
               >
-                <span>O</span>
-                <span>u</span>
-                <span>r</span>
-                <span> </span>
                 <span>W</span>
                 <span>o</span>
                 <span>r</span>

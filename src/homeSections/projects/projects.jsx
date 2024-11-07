@@ -13,12 +13,13 @@ import { FreeMode, Pagination, Autoplay } from "swiper/modules";
 
 function projects() {
   return (
-    <section className="projects section__padding">
-      <h1 className="title__heading wrapp-title">
-        Our <span className="dot">Projects</span>.
-      </h1>
-      <p className="p-divider"></p>
-
+    <section className="projects">
+      <div className="about-title">
+        <h1 className="title__heading wrapp-title">
+          Our <span className="dot">Projects</span>.
+        </h1>
+        <p className="p-divider"></p>
+      </div>
       <div className="ensproject-image-row">
         <Swiper
           edgeFriction={1}
@@ -147,6 +148,30 @@ function projects() {
           </SwiperSlide>
         </Swiper>
       </div>
+      <a href="/about" className="button-text-projects">
+        <span>e</span>
+        <span>x</span>
+        <span>p</span>
+        <span>l</span>
+        <span>o</span>
+        <span>r</span>
+        <span>e</span>
+        <span> </span>
+        <span>a</span>
+        <span>l</span>
+        <span>l</span>
+        <span> </span>
+        <span>p</span>
+        <span>r</span>
+        <span>o</span>
+        <span>j</span>
+        <span>e</span>
+        <span>c</span>
+        <span>t</span>
+        <span>s</span>
+        <span> </span>
+        <span>⇨</span>
+      </a>
     </section>
   );
 }

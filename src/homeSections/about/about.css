@@ -6,14 +6,14 @@
   min-height: 800px;
   margin-top: 30vh;
 
-  border: 8px solid red;
+  /* border: 8px solid red; */
 }
 
 .about-container {
   display: flex;
   flex-direction: row;
 
-  border: 8px solid blue;
+  /* border: 8px solid blue; */
 }
 
 .about-title {
@@ -24,7 +24,7 @@
   width: 30%;
   height: 100%;
   padding-left: 2vw;
-  border: 8px solid yellow;
+  /* border: 8px solid yellow; */
 }
 
 .left-container_para {
@@ -47,7 +47,7 @@
   height: 100%;
   margin-right: 0;
   margin-left: 2vw;
-  border: 8px solid orange;
+  /* border: 8px solid orange; */
 }
 
 .right-container {
@@ -83,13 +83,13 @@
 
 .button-text {
   font-size: 2rem;
-  font-weight: 600;
 }
 
 a span {
-  font-weight: 600;
-  transition: all 0.4s;
-  padding-top: 10vh;
+  font-weight: 800;
+  padding: 0;
+  color: var(--color-logo-orange);
+  /* border: 8px solid red; */
 }
 a span:nth-child(2) {
   transition-delay: 0.1s;
@@ -109,9 +109,70 @@ a span:nth-child(6) {
 a span:nth-child(7) {
   transition-delay: 0.6s;
 }
+a span:nth-child(8) {
+  transition-delay: 0.7s;
+}
+a span:nth-child(9) {
+  transition-delay: 0.8s;
+}
+a span:nth-child(10) {
+  transition-delay: 0.9s;
+}
+a span:nth-child(11) {
+  transition-delay: 1s;
+}
+a span:nth-child(12) {
+  transition-delay: 1.1s;
+}
+a span:nth-child(13) {
+  transition-delay: 1s;
+}
+a span:nth-child(14) {
+  transition-delay: 0.9s;
+}
+a span:nth-child(15) {
+  transition-delay: 0.8s;
+}
+a span:nth-child(16) {
+  transition-delay: 0.7s;
+}
+a span:nth-child(17) {
+  transition-delay: 0.6s;
+}
+a span:nth-child(18) {
+  transition-delay: 0.5s;
+}
+a span:nth-child(19) {
+  transition-delay: 0.4s;
+}
+a span:nth-child(20) {
+  transition-delay: 0.3s;
+}
+a span:nth-child(21) {
+  transition-delay: 0.2s;
+}
+a span:nth-child(22) {
+  transition-delay: 0.1s;
+}
+
 a:hover span {
-  font-weight: 600;
-  color: var(--color-logo-orange);
+  font-weight: 800;
+  color: black;
+}
+a:hover span:nth-child(8) {
+  transition-delay: 0.7s;
+}
+a:hover span:nth-child(9) {
+  transition-delay: 0.8s;
+}
+a:hover span:nth-child(10) {
+  transition-delay: 0.9s;
+}
+a:hover span:nth-child(11) {
+  transition-delay: 1s;
+}
+a:hover span:nth-child(12) {
+  transition-delay: 1.1s;
 }
 a:hover span:nth-child(5) {
   transition-delay: 0.4s;

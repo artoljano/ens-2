@@ -1,11 +1,9 @@
 .services-hero {
   margin-top: 40vh;
-  width: 100%;
 }
 
 .services-hero_container {
   padding: 0 5vh;
-  width: 100%;
   display: flex;
   flex-direction: row;
 }
@@ -29,6 +27,7 @@
 }
 
 .services-hero_wrap {
+  width: 100%;
   display: grid;
   grid-template-columns: 7fr 5fr;
   grid-gap: 20vw;

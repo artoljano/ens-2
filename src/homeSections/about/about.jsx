@@ -36,6 +36,7 @@ function about() {
                 If you want to see the team behind the technology, explore the
                 talented individuals who make it all possible.
               </p>
+
               <a href="/about" className="button-text">
                 <span>m</span>
                 <span>e</span>
@@ -50,7 +51,8 @@ function about() {
                 <span>e</span>
                 <span>a</span>
                 <span>m</span>
-                <span>.</span>
+                <span> </span>
+                <span>⇨</span>
               </a>
             </div>
           </div>
