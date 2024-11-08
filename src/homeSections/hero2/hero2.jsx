@@ -2,6 +2,8 @@ import React from "react";
 import "./hero2.css";
 
 import hero6 from "../../assets/hero/hero6.png";
+import test from "../../assets/hero/test.png";
+import test1 from "../../assets/hero/test1.png";
 
 import { motion } from "framer-motion";
 
@@ -33,7 +35,9 @@ function hero2() {
         </div>
       </div>
       <div className="hero2-container_right">
-        <img src={hero6} alt="" />
+        {/* <img src={test} id="img1" />
+        <img src={test1} id="img2" /> */}
+        {/* <img src={hero6} alt="" /> */}
       </div>
     </motion.section>
   );

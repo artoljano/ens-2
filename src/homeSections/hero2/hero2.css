@@ -116,3 +116,29 @@
   margin-left: 5vw;
   /* border: 8px solid purple; */
 }
+
+.hero2-container_right img {
+  border-radius: 0.6rem;
+  /* border-image: linear-gradient(90deg, #ff8200, #ff8200, #000000, #000000);
+  border-image-slice: 1;
+  background-clip: content-box, border-box; */
+}
+
+.hero2-container_right {
+  background-image: url("../../assets/hero/test1.png");
+  /* background-color: var(--color-logo-orange); */
+
+  transition: 0.5s;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.hero2-container_right:hover {
+  background-image: url("../../assets/hero/test.png");
+  /* background-color: var(--color-logo-orange); */
+
+  transition: 0.5s;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}

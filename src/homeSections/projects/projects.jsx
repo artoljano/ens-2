@@ -1,5 +1,6 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./projects.css";
+import { useRef } from "react";
 
 import ArenaKombetare from "../../assets/projects/11.jpg";
 import Mugo from "../../assets/projects/mugo20.jpg";
@@ -37,18 +38,22 @@ function projects() {
           autoplay={{
             delay: 1000,
             waitForTransition: true,
+            pauseOnMouseEnter: true,
           }}
           speed={8000}
           freeMode={true}
           modules={[FreeMode, Pagination, Autoplay]}
         >
           <SwiperSlide>
-            <div className="ensproject-image-box-b">
-              <img
+            <div id="Mariott" className="ensproject-image-box-b effect">
+              {/* <img
                 loading="lazy"
                 className="ensproject-image-box-b-image"
                 src={ArenaKombetare}
-              />
+              /> */}
+              <div className="ensproject-desc">
+                <h1>Hotel Mariot</h1>
+              </div>
               <div className="image-box-work">
                 <div className="image-box-work-item">
                   <h1 className="short-description">GRMS</h1>
@@ -69,38 +74,46 @@ function projects() {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="ensproject-image-box-s">
-              <img
+            <a href="/projects">
+              <div id="Mugo" className="ensproject-image-box-s effect">
+                {/* <img
                 loading="lazy"
                 className="ensproject-image-box-b-image"
                 src={Mugo}
-              />
-              <div className="image-box-work">
-                <div className="image-box-work-item">
-                  <h1 className="short-description">Network</h1>
+              /> */}
+                <div className="ensproject-desc">
+                  <h1>Mugo Restaurant</h1>
                 </div>
-                <div className="image-box-work-item">
-                  <h1 className="short-description">Electric</h1>
-                </div>
-                <div className="image-box-work-item">
-                  <h1 className="short-description">Lighting</h1>
-                </div>
-                <div className="image-box-work-item">
-                  <h1 className="short-description">Wi-Fi system</h1>
-                </div>
-                <div className="image-box-work-item">
-                  <h1 className="short-description">CCTV</h1>
+                <div className="image-box-work">
+                  <div className="image-box-work-item">
+                    <h1 className="short-description">Network</h1>
+                  </div>
+                  <div className="image-box-work-item">
+                    <h1 className="short-description">Electric</h1>
+                  </div>
+                  <div className="image-box-work-item">
+                    <h1 className="short-description">Lighting</h1>
+                  </div>
+                  <div className="image-box-work-item">
+                    <h1 className="short-description">Wi-Fi system</h1>
+                  </div>
+                  <div className="image-box-work-item">
+                    <h1 className="short-description">CCTV</h1>
+                  </div>
                 </div>
               </div>
-            </div>
+            </a>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="ensproject-image-box-b">
-              <img
+            <div id="griffin" className="ensproject-image-box-b effect">
+              {/* <img
                 loading="lazy"
                 className="ensproject-image-box-b-image"
                 src={ArenaKombetare}
-              />
+              /> */}
+              <div className="ensproject-desc">
+                <h1>Griffin Restaurant</h1>
+              </div>
               <div className="image-box-work">
                 <div className="image-box-work-item">
                   <h1 className="short-description">GRMS</h1>
@@ -121,28 +134,41 @@ function projects() {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="ensproject-image-box-s">
-              <img
+            <div id="Mugo-t" className="ensproject-image-box-s effect">
+              {/* <img
                 loading="lazy"
                 className="ensproject-image-box-b-image"
                 src={Mugo}
-              />
+              /> */}
+              <div className="ensproject-desc">
+                <h1>Mugo Terrace</h1>
+              </div>
               <div className="image-box-work">
-                <div className="image-box-work-item">
-                  <h1 className="short-description">Network</h1>
-                </div>
-                <div className="image-box-work-item">
-                  <h1 className="short-description">Electric</h1>
-                </div>
-                <div className="image-box-work-item">
-                  <h1 className="short-description">Lighting</h1>
-                </div>
-                <div className="image-box-work-item">
-                  <h1 className="short-description">Wi-Fi system</h1>
-                </div>
-                <div className="image-box-work-item">
-                  <h1 className="short-description">CCTV</h1>
-                </div>
+                <a href="/services">
+                  <div className="image-box-work-item">
+                    <h1 className="short-description">Network</h1>
+                  </div>
+                </a>
+                <a href="/services">
+                  <div className="image-box-work-item">
+                    <h1 className="short-description">Electric</h1>
+                  </div>
+                </a>
+                <a href="/services">
+                  <div className="image-box-work-item">
+                    <h1 className="short-description">Lighting</h1>
+                  </div>
+                </a>
+                <a href="/services">
+                  <div className="image-box-work-item">
+                    <h1 className="short-description">Wi-Fi system</h1>
+                  </div>
+                </a>
+                <a href="/services">
+                  <div className="image-box-work-item">
+                    <h1 className="short-description">CCTV</h1>
+                  </div>
+                </a>
               </div>
             </div>
           </SwiperSlide>

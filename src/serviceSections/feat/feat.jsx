@@ -121,7 +121,7 @@ function Feat() {
                 </div>
               </div>
             </div>
-            <div className="work-info">
+            <div className="work-info mt-[30vh]">
               <div className="work-title ">
                 <h1>
                   Network Solutions
@@ -222,7 +222,7 @@ function Feat() {
                 </div>
               </div>
             </div>
-            <div className="work-info">
+            <div className="work-info  mt-[40vh]">
               <div className="work-title">
                 <h1>
                   Electrical Solutions
@@ -324,7 +324,7 @@ function Feat() {
                 </div>
               </div>
             </div>
-            <div className="work-info">
+            <div className="work-info  mt-[30vh]">
               <div className="work-title">
                 <h1>
                   Lighting Solutions
@@ -395,7 +395,7 @@ function Feat() {
                 </div>
               </div>
             </div>
-            <div className="work-info">
+            <div className="work-info  mt-[30vh]">
               <div className="work-title">
                 <h1>
                   CCTV System
