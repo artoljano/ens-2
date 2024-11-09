@@ -6,6 +6,7 @@ import {
   BrowserRouter as Router,
   Routes,
   Route,
+  HashRouter,
 } from "react-router-dom";
 
 import Home from "./pages/Home";

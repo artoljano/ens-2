@@ -131,7 +131,7 @@
   transition: 0.5s;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  background-size: contain;
 }
 .hero2-container_right:hover {
   background-image: url("../../assets/hero/test.png");
