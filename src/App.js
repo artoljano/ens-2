@@ -6,6 +6,7 @@ import {
   BrowserRouter as Router,
   Routes,
   Route,
+  HashRouter,
 } from "react-router-dom";
 
 import Home from "./pages/Home";
@@ -17,7 +18,7 @@ import Work from "./pages/Work";
 import './App.css';
 
 const App = () => (
-  <Router>
+  <HashRouter>
             <Navbar1 />
             <Routes>
                 <Route exact path="/" element={<Home />} />
@@ -32,7 +33,7 @@ const App = () => (
                     element={<Work />}
                 />
             </Routes>
-        </Router>
+        </HashRouter>
 );
 
 export default App;
