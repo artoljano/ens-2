@@ -18,7 +18,7 @@ import Work from "./pages/Work";
 import './App.css';
 
 const App = () => (
-  <HashRouter>
+  <Router>
             <Navbar1 />
             <Routes>
                 <Route exact path="/" element={<Home />} />
@@ -33,7 +33,7 @@ const App = () => (
                     element={<Work />}
                 />
             </Routes>
-        </HashRouter>
+        </Router>
 );
 
 export default App;
