@@ -1,21 +1,21 @@
-.services-hero {
+.about-hero {
   margin-top: 40vh;
 }
 
-.services-hero_container {
+.about-hero_container {
   padding: 0 5vh;
   width: 100%;
   display: flex;
   flex-direction: row;
 }
 
-.services-hero_title {
+.about-hero_title {
   font-size: 170px;
   font-weight: 600;
   letter-spacing: -8px;
 }
 
-.services-hero_subtitle {
+.about-hero_subtitle {
   font-size: 40px;
   font-weight: 600;
   letter-spacing: -1px;
@@ -27,7 +27,7 @@
   transform: translate(0px, 0px);
 }
 
-.services-hero_wrap {
+.about-hero_wrap {
   display: grid;
   width: 100%;
   grid-template-columns: 7fr 7fr;

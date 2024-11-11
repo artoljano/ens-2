@@ -14,11 +14,13 @@ import About from "./pages/AboutUs";
 import Products from "./pages/Products";
 import Services from "./pages/Services";
 import Work from "./pages/Work";
+import Contact from './pages/Contact';
 
 import './App.css';
 
+
 const App = () => (
-  <Router>
+  <HashRouter>
             <Navbar1 />
             <Routes>
                 <Route exact path="/" element={<Home />} />
@@ -32,8 +34,13 @@ const App = () => (
                     path="/projects"
                     element={<Work />}
                 />
+                <Route
+                    path="/contact"
+                    element={<Contact />}
+                />
             </Routes>
-        </Router>
+            <Footer />
+        </HashRouter>
 );
 
 export default App;

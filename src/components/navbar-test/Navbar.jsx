@@ -58,7 +58,7 @@ const Navbar = () => {
         </a>
       </p>
       <p>
-        <a href="/projects" className="hover-shadow hover-color nav-item">
+        <a href="/contact" className="hover-shadow hover-color nav-item">
           <span>C</span>
           <span>o</span>
           <span>n</span>

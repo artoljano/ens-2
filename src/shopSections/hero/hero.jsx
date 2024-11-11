@@ -4,13 +4,13 @@ import "./hero.css";
 
 function hero() {
   return (
-    <section className="services-hero section__padding">
-      <div className="services-hero_container">
-        <div className="services-hero_wrap">
-          <div className="services-hero_title">
+    <section className="shop-hero section__padding">
+      <div className="shop-hero_container">
+        <div className="shop-hero_wrap">
+          <div className="shop-hero_title">
             <h1>Products</h1>
           </div>
-          <div className="services-hero_subtitle">
+          <div className="shop-hero_subtitle">
             <h2>Unleash Possibilities with Our Product Range</h2>
           </div>
         </div>

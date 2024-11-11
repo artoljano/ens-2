@@ -15,12 +15,12 @@ function partners() {
         <p className="p-divider"></p>
       </div>
 
-      <div class="partner-section-full">
-        <div class="partner-image-container header-effect">
-          <img src={Jung} alt="Partner Name" class="partner-image-full" />
-          <div class="text-overlay">
-            <img src={JungLogo} alt="Logo" class="partner-logo" />
-            <div class="text-column">
+      <div className="partner-section-full">
+        <div className="partner-image-container header-effect">
+          <img src={Jung} alt="Partner Name" className="partner-image-full" />
+          <div className="text-overlay">
+            <img src={JungLogo} alt="Logo" className="partner-logo" />
+            <div className="text-column">
               <h3>Commitment to Excellence</h3>
               <p>
                 Describe the partner's dedication to providing value or support.
@@ -32,11 +32,11 @@ function partners() {
                 laborum
               </p>
             </div>
-            <div class="text-column">
+            <div className="text-column">
               <h3>Working Together</h3>
               <p> Areas where we work closely.</p>
             </div>
-            <div class="text-column">
+            <div className="text-column">
               <h3>Together We Grow</h3>
               <p> How working together creates a positive impact.</p>
             </div>
