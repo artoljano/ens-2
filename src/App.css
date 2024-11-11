@@ -4,8 +4,6 @@
 
 .container {
   scroll-snap-type: y mandatory;
-
-  height: 100vh;
 }
 
 .section__padding {

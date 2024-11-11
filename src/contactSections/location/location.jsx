@@ -41,7 +41,7 @@ function location() {
         </div>
         <div className="location-right">
           <img
-            className="rounded-[calc(10/16*1rem)] lg:rounded-2xl"
+            className="relative items-center justify-center rounded-[calc(10/16*1rem)] lg:rounded-2xl"
             alt=""
             data-element="parts/image"
             width="500"
