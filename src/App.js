@@ -20,7 +20,8 @@ import './App.css';
 
 
 const App = () => (
-  <HashRouter>
+//   <HashRouter>
+<div>
             <Navbar1 />
             <Routes>
                 <Route exact path="/" element={<Home />} />
@@ -40,7 +41,8 @@ const App = () => (
                 />
             </Routes>
             <Footer />
-        </HashRouter>
+            </div>
+        /* </HashRouter> */
 );
 
 export default App;

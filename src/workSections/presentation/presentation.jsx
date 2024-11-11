@@ -41,8 +41,8 @@ function presentation() {
                 </p>
               </div>
               <p className="mb-[4px] text-[18px] leading-[180%] text-[#5A5A5A] tracking-[-0.48px]">
-                Fully accessible, WebGL experience integrating Mastercard’s
-                sonic brand into a dynamic digital pass.
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                laboris nisi ut aliquip ex ea commodo consequat.
               </p>
               <p className="leading-[180%] text-[#A2A2A2] tracking-[-0.48px]">
                 Network Solution, GRMS, Lighting
@@ -74,7 +74,8 @@ function presentation() {
                 </p>
               </div>
               <p className="mb-[4px] text-[18px] leading-[180%] text-[#5A5A5A] tracking-[-0.48px]">
-                Immersive NARCOS storefront and digital collectibles.
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                laboris nisi ut aliquip ex ea commodo consequat.
               </p>
               <p className="leading-[180%] text-[#A2A2A2] tracking-[-0.48px]">
                 Electrical and Network Solution, Wi-Fi, CCTV, Lighting
@@ -106,7 +107,8 @@ function presentation() {
                 </p>
               </div>
               <p className="mb-[4px] text-[18px] leading-[180%] text-[#5A5A5A] tracking-[-0.48px]">
-                Rebranded and expanded website with a modern elevated presence.
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                laboris nisi ut aliquip ex ea commodo consequat.
               </p>
               <p className="leading-[180%] text-[#A2A2A2] tracking-[-0.48px]">
                 Electrical and Network Solution, Wi-Fi, CCTV, Lighting
@@ -138,7 +140,8 @@ function presentation() {
                 </p>
               </div>
               <p className="mb-[4px] text-[18px] leading-[180%] text-[#5A5A5A] tracking-[-0.48px]">
-                Rebranded and expanded website with a modern elevated presence.
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                laboris nisi ut aliquip ex ea commodo consequat.
               </p>
               <p className="leading-[180%] text-[#A2A2A2] tracking-[-0.48px]">
                 Electrical and Network Solution, Wi-Fi, CCTV, Lighting, IPTV
@@ -171,7 +174,8 @@ function presentation() {
               </div>
               <p className="mb-[4px] text-[18px]  leading-[180%] text-[#5A5A5A] tracking-[-0.48px]">
                 {" "}
-                The Christie's Art+Tech Summit 2024
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                laboris nisi ut aliquip ex ea commodo consequat.
               </p>
               <p className=" leading-[180%] text-[#A2A2A2] tracking-[-0.48px]">
                 Network Solution, Wi-Fi, CCTV
@@ -204,7 +208,8 @@ function presentation() {
               </div>
               <p className="mb-[4px] text-[18px]  leading-[180%] text-[#5A5A5A] tracking-[-0.48px]">
                 {" "}
-                The Christie's Art+Tech Summit 2024
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                laboris nisi ut aliquip ex ea commodo consequat.
               </p>
               <p className=" leading-[180%] text-[#A2A2A2] tracking-[-0.48px]">
                 Network Solution, Wi-Fi, CCTV, Lighting, IPTV
@@ -237,7 +242,8 @@ function presentation() {
               </div>
               <p className="mb-[4px] text-[18px]  leading-[180%] text-[#5A5A5A] tracking-[-0.48px]">
                 {" "}
-                The Christie's Art+Tech Summit 2024
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                laboris nisi ut aliquip ex ea commodo consequat.
               </p>
               <p className=" leading-[180%] text-[#A2A2A2] tracking-[-0.48px]">
                 Wi-Fi System
@@ -270,7 +276,8 @@ function presentation() {
               </div>
               <p className="mb-[4px] text-[18px]  leading-[180%] text-[#5A5A5A] tracking-[-0.48px]">
                 {" "}
-                The Christie's Art+Tech Summit 2024
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                laboris nisi ut aliquip ex ea commodo consequat.
               </p>
               <p className=" leading-[180%] text-[#A2A2A2] tracking-[-0.48px]">
                 Wi-Fi System
@@ -303,7 +310,8 @@ function presentation() {
               </div>
               <p className="mb-[4px] text-[18px]  leading-[180%] text-[#5A5A5A] tracking-[-0.48px]">
                 {" "}
-                The Christie's Art+Tech Summit 2024
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                laboris nisi ut aliquip ex ea commodo consequat.
               </p>
               <p className=" leading-[180%] text-[#A2A2A2] tracking-[-0.48px]">
                 Electrical and Network Solution, GRMS, Lighting, Wi-Fi System,
