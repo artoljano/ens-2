@@ -1,0 +1,75 @@
+.catalog {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  position: relative;
+  min-height: 800px;
+  margin-top: 10vh;
+}
+
+.catalog-container {
+  max-width: 1670px;
+  margin: 0 auto;
+}
+.catalog-row {
+  display: flex;
+  min-height: 700px;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 2vw;
+}
+
+.catalog-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 2vh;
+}
+
+.catalog-info {
+  font-size: 1.1rem;
+}
+
+.catalog-headline {
+  font-size: 1.3rem;
+  font-weight: 600;
+  /* color: #818285; */
+  color: var(--color-logo-orange);
+}
+
+.catalog-single {
+  min-height: 700px;
+
+  max-width: 30%;
+  background-color: var(--color-bg-catalog);
+}
+
+#first {
+  /* border: 8px solid red;*/
+  min-height: 400px;
+  background-image: url("../../assets/products/disc-cat.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  transition: 0.5s;
+}
+
+#first:hover {
+  background-image: url("../../assets/products/disc-cat-back.png");
+  transition: 0.5s;
+}
+
+#second {
+  /* border: 8px solid red;*/
+  min-height: 400px;
+  background-image: url("../../assets/products/cap-ac.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  transition: 0.5s;
+}
+
+#second:hover {
+  background-image: url("../../assets/products/cap-ac-back.png");
+  transition: 0.5s;
+}

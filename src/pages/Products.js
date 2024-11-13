@@ -1,13 +1,13 @@
 import React from 'react';
 
-import {Hero} from '../shopSections'
+import {Hero, Header, Catalog} from '../shopSections'
 
 const Products = () => (
   <div>
 
     <Hero />
- 
-    
+    <Header />
+    <Catalog />
 
   </div>
 );
