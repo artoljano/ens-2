@@ -49,14 +49,14 @@
 }
 
 .catalog-container {
-  max-width: 1700px;
-  margin: 0 auto;
-  margin-left: 5vw;
+  width: 100%;
+
   /* margin-left: 4vw; */
   /* border: 8px solid red; */
 }
 
 .catalog-row {
+  width: 80%;
   display: flex;
   min-height: 700px;
   flex-direction: row;
@@ -89,6 +89,7 @@
   max-width: 30%;
   border-radius: 1rem;
   background-color: var(--color-bg-catalog);
+  /* border: 8px solid orange; */
 }
 
 #first {
