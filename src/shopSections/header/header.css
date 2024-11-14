@@ -1,0 +1,76 @@
+.shop-header {
+  background-color: white;
+  position: relative;
+  min-height: 800px;
+  margin-top: 10vh;
+}
+
+.shop-header-image {
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  height: 100vh;
+
+  /* border: 8px solid red; */
+}
+
+@media (min-width: 768px) {
+  .shop-header-image {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+}
+@media (min-width: 1024px) {
+  .shop-header-image {
+    flex-direction: row;
+    align-items: center;
+  }
+}
+
+.shop-header-image img {
+  object-fit: contain;
+  align-items: center;
+  align-content: center;
+  border-radius: 1rem;
+}
+/* #ShopMariott {
+  background-image: url("../../assets/products/smart-h-elect.jpg");
+  background-color: black;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#ShopMugo {
+  background-image: url("../../assets/products/smart-home.jpg");
+  background-color: black;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#ShopGriffin {
+  background-image: url("../../assets/products/home-network.jpg");
+  background-color: black;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#ShopMugo-t {
+  background-image: url("../../assets/products/smart-li.jpg");
+  background-color: black;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+} */
+
+.swiper-pagination-bullet-active {
+  background-color: #f2ab29 !important;
+  opacity: 1 !important;
+}
+
+.swiper-pagination-bullet {
+  opacity: 1;
+  background-color: grey;
+}

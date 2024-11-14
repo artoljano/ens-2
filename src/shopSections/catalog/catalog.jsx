@@ -4,6 +4,9 @@ import "./catalog.css";
 import Disc from "../../assets/products/disc-cat.png";
 import Disc1 from "../../assets/products/disc-cat-back.png";
 
+import CapAc from "../../assets/products/cap-ac.png";
+import CapAc1 from "../../assets/products/cap-ac-back.png";
+
 // import { products } from "../../data/catalog";
 
 export const products = [
@@ -21,8 +24,8 @@ export const products = [
     name: "CAP AC",
     description:
       "The CAP AC is a dual-band, high-performance access point designed for indoor wireless coverage. It delivers fast, reliable connectivity with 2.4 GHz and 5 GHz support, making it ideal for high-density environments. With a sleek design and easy ceiling or wall mounting, it ensures seamless, powerful Wi-Fi coverage.",
-    imageUrl: Disc,
-    hImageUrl: Disc1,
+    imageUrl: CapAc,
+    hImageUrl: CapAc1,
     category: "Lighting",
   },
   {
@@ -39,8 +42,8 @@ export const products = [
     name: "CAP AC",
     description:
       "The CAP AC is a dual-band, high-performance access point designed for indoor wireless coverage. It delivers fast, reliable connectivity with 2.4 GHz and 5 GHz support, making it ideal for high-density environments. With a sleek design and easy ceiling or wall mounting, it ensures seamless, powerful Wi-Fi coverage.",
-    imageUrl: Disc,
-    hImageUrl: Disc1,
+    imageUrl: CapAc,
+    hImageUrl: CapAc1,
     category: "Electric",
   },
   {
@@ -57,8 +60,8 @@ export const products = [
     name: "CAP AC",
     description:
       "The CAP AC is a dual-band, high-performance access point designed for indoor wireless coverage. It delivers fast, reliable connectivity with 2.4 GHz and 5 GHz support, making it ideal for high-density environments. With a sleek design and easy ceiling or wall mounting, it ensures seamless, powerful Wi-Fi coverage.",
-    imageUrl: Disc,
-    hImageUrl: Disc1,
+    imageUrl: CapAc,
+    hImageUrl: CapAc1,
     category: "Lighting",
   },
 ];
@@ -67,7 +70,7 @@ function Catalog() {
   const [selectedFilters, setSelectedFilters] = useState([]);
   const [filteredProducts, setFilteredProducts] = useState(products);
 
-  let filters = ["Network", "Electric", "Lighting", "CCTV"];
+  let filters = ["GRMS", "Network", "Electric", "Lighting"];
 
   const handleFilterButtonClick = (selectedCategory) => {
     if (selectedFilters.includes(selectedCategory)) {
@@ -132,7 +135,7 @@ function Catalog() {
           </button>
         ))}
       </div>
-
+      <div className="catalog-filter-divider section__padding"></div>
       <div className="catalog-container">
         {arrayChunk(filteredProducts, 3).map((row, rowIndex) => (
           <div
@@ -157,7 +160,7 @@ function Catalog() {
                     backgroundSize: "contain",
                     backgroundPosition: "center",
                     backgroundRepeat: "no-repeat",
-                    transition: "background-image 0.5s ease", // Smooth transition for background change
+                    transition: "background-image 1s ease", // Smooth transition for background change
                     minHeight: "400px",
                   }}
                 >

@@ -5,24 +5,28 @@
   position: relative;
   min-height: 800px;
   margin-top: 10vh;
-}
-
-.catalog-container {
-  max-width: 1670px;
-  margin: 0 auto;
+  --glow-color: hsl(186 100% 69%);
 }
 
 .catalog-filter {
-  width: 50%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   gap: 2vw;
   margin: 10vh auto;
+
   /* border-bottom: 3px solid orange; */
 }
 
+.catalog-filter-divider {
+  position: relative;
+  bottom: 5vh;
+  border-bottom: 1px solid rgba(34, 35, 37, 0.32);
+  margin-bottom: 5vh;
+}
 .button {
+  width: 300px;
+  height: 60px;
   border: 1px solid #000;
   background: transparent;
   margin: 5px 5px;
@@ -30,17 +34,35 @@
   padding: 5px 10px;
   cursor: pointer;
   transition: all 0.2s ease-in-out;
+  font-size: 1.5rem;
+  font-weight: 600;
 }
 .active {
   background-color: #1e293b;
   color: #fff;
+  border: 3px outset #ddd;
+  color: #fff;
+  background: linear-gradient(160deg, #f2ab29, #f2ab29);
+  text-shadow: 0px 0px 4px #ccc;
+  box-shadow: 0 0 10px #fff, 0 0 40px #fff, 0 0 80px #fff;
+  transition-delay: 0.2s;
+}
+
+.catalog-container {
+  max-width: 1700px;
+  margin: 0 auto;
+  margin-left: 5vw;
+  /* margin-left: 4vw; */
+  /* border: 8px solid red; */
 }
 
 .catalog-row {
   display: flex;
   min-height: 700px;
   flex-direction: row;
+  margin: 0 auto;
 
+  /* border: 8px solid blue; */
   gap: 2vw;
 }
 
@@ -65,6 +87,7 @@
 .catalog-single {
   min-height: 700px;
   max-width: 30%;
+  border-radius: 1rem;
   background-color: var(--color-bg-catalog);
 }
 
@@ -75,12 +98,12 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
-  transition: 0.5s;
+  transition: 1s;
 }
 
 #first:hover {
   background-image: url("../../assets/products/disc-cat-back.png");
-  transition: 0.5s;
+  transition: 1s;
 }
 
 #second {
@@ -90,10 +113,10 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
-  transition: 0.5s;
+  transition: 1s;
 }
 
 #second:hover {
   background-image: url("../../assets/products/cap-ac-back.png");
-  transition: 0.5s;
+  transition: 1s;
 }
