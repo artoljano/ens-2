@@ -8,8 +8,8 @@ const Services = () => (
     <Hero />
 
     <Feat />
-
-    <First />
+    <footer />
+    {/* <First /> */}
 
   </div>
 );
