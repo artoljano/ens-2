@@ -1,12 +1,13 @@
 import React from 'react';
 
-import {Hero} from '../aboutSections'
+import {Hero, Team, History} from '../aboutSections'
 
 const AboutUs = () => (
   <div>
 
     <Hero />
-
+    <History />
+    <Team />
   </div>
 );
 
