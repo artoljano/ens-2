@@ -3,6 +3,7 @@
   position: relative;
   min-height: 800px;
   margin-top: 20vh;
+  /* border: 8px solid green; */
 }
 
 .ens-team_wrapper {
@@ -26,7 +27,7 @@
   margin-inline-end: 0px;
   padding-inline-start: 40px;
   unicode-bidi: isolate;
-  /* border: 8px solid red; */
+  /* border: 8px solid red;*/
 }
 
 .ens-team_item {
@@ -39,6 +40,8 @@
   border-top: 1px solid #f2ab29;
   color: #f2ab29;
   transition: color 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
+  /* border: 8px solid yellow; */
+  z-index: 400;
 }
 
 .ens-team_item:hover {
@@ -52,18 +55,20 @@
   transition: transform 0.5s cubic-bezier(0.215, 0.61, 0.355, 1);
   transform-origin: top center;
   z-index: 1; */
-  z-index: 1;
+  z-index: 401;
   color: white;
 }
 
 .ens-team_item-position {
   font-size: 1.5rem;
   font-weight: 600;
+  /* border: 8px solid black; */
 }
 
 .ens-team_item-name {
   font-size: 2rem;
   font-weight: 800;
+  /* border: 8px solid orange; */
 }
 
 .ens-team_list-image:not(:first-child) {
@@ -73,15 +78,17 @@
   opacity: 0;
   max-width: 600px;
   max-height: 600px;
-  z-index: 254;
+  /* z-index: 254; */
   pointer-events: none;
   border-radius: 1rem;
+  /* border: 8px solid purple; */
 }
 
 .ens-team_list-image {
   overflow: hidden;
-
+  /* z-index: -1; */
   transition: opacity 0s linear 0.3s;
   transform: translate3d(-100%, 0, 0);
-  /* pointer-events: none; */
+  pointer-events: none;
+  /* border: 8px solid cyan; */
 }
