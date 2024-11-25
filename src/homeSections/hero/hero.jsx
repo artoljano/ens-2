@@ -1,9 +1,13 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./hero.css";
 
 import HeroImage from "../../assets/hero/Hero.png";
 
-function hero() {
+function Hero() {
+  useEffect(() => {
+    window.scroll(0, 0);
+  }, []);
+
   return (
     <section className="hero section__padding">
       <div className="hero-container_left">
@@ -24,4 +28,4 @@ function hero() {
   );
 }
 
-export default hero;
+export default Hero;

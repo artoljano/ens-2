@@ -1,8 +1,11 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 import "./hero.css";
 
-function hero() {
+function Hero() {
+  useEffect(() => {
+    window.scroll(0, 0);
+  }, []);
   return (
     <section className="work-hero">
       <div className="work-hero_container">
@@ -19,4 +22,4 @@ function hero() {
   );
 }
 
-export default hero;
+export default Hero;

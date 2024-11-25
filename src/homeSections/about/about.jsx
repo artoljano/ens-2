@@ -37,7 +37,7 @@ function about() {
                 talented individuals who make it all possible.
               </p>
 
-              <a href="/about" className="button-text">
+              <a href="#/about" className="button-text">
                 <span>m</span>
                 <span>e</span>
                 <span>e</span>

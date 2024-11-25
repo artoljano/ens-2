@@ -1,13 +1,17 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 
-import {Hero, Team} from '../aboutSections'
+import {Hero, Team, Header} from '../aboutSections'
 import History  from '../aboutSections/history/History.tsx';
-const AboutUs = () => (
-  <div>
 
+
+
+const AboutUs = () => (
+  
+  <div>
     <Hero />
-    <History />
+    <Header />
     <Team />
+    <History />
   </div>
 );
 

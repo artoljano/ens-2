@@ -1,0 +1,56 @@
+.about-main {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  position: relative;
+  min-height: 800px;
+  margin-top: 20vh;
+}
+
+.about-main_text-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.main-left {
+  width: 50%;
+}
+
+.main-title {
+  width: 80%;
+  margin: 0 auto;
+  font-size: 4rem;
+  font-weight: 800;
+}
+
+.main-span {
+  font-size: 4rem;
+  font-weight: 800;
+  color: var(--color-logo-orange);
+}
+
+.main-right {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-right p {
+  width: 80%;
+  margin: 0 auto;
+  font-size: 1.5rem;
+}
+
+.about-contact_button {
+  margin-top: 2vh;
+  margin-left: 4.8vw;
+}
+
+.group-image {
+  margin: 0 auto;
+  margin-top: 15vh;
+}
+
+.group-image img {
+  width: 1400px;
+}

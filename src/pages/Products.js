@@ -6,7 +6,7 @@ const Products = () => (
   <div>
 
     <Hero />
-    <Header />
+    {/* <Header /> */}
     <Catalog />
 
   </div>
