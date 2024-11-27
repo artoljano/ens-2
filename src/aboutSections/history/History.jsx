@@ -8,6 +8,54 @@ import { useGSAP } from "@gsap/react";
 import "./history.css";
 gsap.registerPlugin(ScrollTrigger);
 function History() {
+  const [scrollY, setScrollY] = useState(0);
+  const [dotLocation, setDotLoaction] = useState(0);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setScrollY(window.scrollY);
+    };
+    handleScroll();
+
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
+  // useEffect(() => {
+  //   if (scrollY < 2400) {
+  //     setDotLoaction("0");
+  //   } else if (scrollY > 4800) {
+  //     setDotLoaction("2400");
+  //   }
+  // }, [scrollY]);
+
+  // useEffect(() => {
+  //   const loop = () => {
+  //     if (scrollY >= 2400 && scrollY <= 4800) {
+  //       setDotLoaction(scrollY - 2400);
+  //       // ...same code in previous while loop here
+  //     }
+
+  //     // at the end, start next async loop if condition still hold true
+
+  //   };
+
+  // }, [scrollY]);
+
+  useEffect(() => {
+    if (scrollY < 2400) {
+      setDotLoaction(0);
+    } else if (scrollY > 4800) {
+      setDotLoaction(2400);
+    } else if (scrollY > 2400 && scrollY < 4800) {
+      setDotLoaction(scrollY - 2400);
+    }
+  }, [scrollY]);
+
+  // console.log(scrollY);
+  // console.log(dotLocation);
   // useEffect(() => {
   //   <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.0/bundled/lenis.js"></script>;
 
@@ -35,7 +83,12 @@ function History() {
               {" "}
               <div className="history-progress_inner">
                 {" "}
-                <div className="history-progress_dot"></div>{" "}
+                <div
+                  className="history-progress_dot"
+                  style={{
+                    transform: `translateY(${dotLocation}%)`,
+                  }}
+                ></div>{" "}
               </div>{" "}
             </div>
           </div>

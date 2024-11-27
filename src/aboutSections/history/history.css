@@ -15,14 +15,14 @@
   /* border: 8px solid blue; */
 }
 
-/* .history-progress {
+.history-progress {
   border: 1px solid black;
   border-radius: 9.9rem;
   width: 1.6rem;
   height: 25.5rem;
   position: absolute;
   left: 100%;
-  transform: translateY(-50%);
+  transform: translateY(-70%);
   opacity: 1;
   visibility: inherit;
 }
@@ -43,7 +43,8 @@
   height: 1rem;
   margin-top: -0.5rem;
   position: absolute;
-} */
+  /* transform: translateY(2400%); */
+}
 
 .history-right {
   position: sticky;
