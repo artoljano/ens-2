@@ -1,9 +1,17 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "./footer.css";
 
 import Logo from "../../assets/navbar/EnsLogo.png";
 
-function footer() {
+function Footer() {
+  const [time, setTime] = useState(new Date());
+
+  useEffect(() => {
+    setInterval(() => setTime(new Date()), 1000);
+  });
+
+  console.log(time.getHours.toString());
+
   return (
     <section className="ens-footer text-white">
       <div className="container">
@@ -18,30 +26,36 @@ function footer() {
           </div>
           <div className="footer-column col-2">
             <div className="footer-links">
-              <div className="paragraph-white small space">Contact</div>
-              <a
-                href="/ens-design/index.html"
-                className="footer-link w-inline-block"
-              >
-                <div>Rr. Qemal Stafa, Nr.162, Tirana, Albania.</div>
+              <a href="#/contact" className="footer-link w-inline-block">
+                <div>Tirane, Albania</div>
+                <local-time
+                  data-time-zone="Europe/Amsterdam"
+                  className="hidden text-white/60 lg:flex"
+                >
+                  <span data-hours="">{time.getHours}</span>
+                  <span className="animate-blink">:</span>
+                  <span data-minutes="">{time.getMinutes}</span>
+                </local-time>
               </a>
               <a
-                href="/ens-design/index.html"
-                className="footer-link w-inline-block"
+                href="#/contact"
+                className="footer-link-contact w-inline-block"
+              >
+                <div>Rr. Qemal Stafa, Nr.162</div>
+              </a>
+              <a
+                href="#/contact"
+                className="footer-link-contact w-inline-block"
               >
                 <div>info@ens-al.com</div>
               </a>
-              <a
-                href="/ens-design/index.html"
-                className="footer-link w-inline-block"
-              >
+              <a className="footer-link-contact w-inline-block">
                 <div>+355 672181183</div>
               </a>
             </div>
           </div>
           <div className="footer-column col-4">
             <div className="footer-links">
-              <div className="paragraph-white small space">Quick Links</div>
               <a
                 href="/ens-design/index.html"
                 className="footer-link w-inline-block hover-shadow hover-color  nav-item"
@@ -96,11 +110,22 @@ function footer() {
                 <span>r</span>
                 <span>k</span>
               </a>
+              <a
+                href="/ens-design/index.html"
+                className="footer-link w-inline-block  nav-item"
+              >
+                <span>C</span>
+                <span>o</span>
+                <span>n</span>
+                <span>t</span>
+                <span>a</span>
+                <span>c</span>
+                <span>t</span>
+              </a>
             </div>
           </div>
           <div className="footer-column col-3">
             <div className="footer-links">
-              <div className="paragraph-white small space">Connect on</div>
               <div className="social">
                 <a
                   href="https://www.instagram.com"
@@ -169,4 +194,4 @@ function footer() {
   );
 }
 
-export default footer;
+export default Footer;
