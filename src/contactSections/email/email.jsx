@@ -41,7 +41,7 @@ function email() {
               </div>
               <div className="flex flex-col">
                 <label className="mb-2" for="function">
-                  Function
+                  Position
                 </label>
                 <input name="function" type="text" />
               </div>

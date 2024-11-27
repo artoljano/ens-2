@@ -4,7 +4,7 @@
   background-color: white;
   position: relative;
   min-height: 800px;
-  margin-top: 20vh;
+  margin-top: 40vh;
 }
 
 .about-main_text-container {
@@ -53,4 +53,5 @@
 
 .group-image img {
   width: 1400px;
+  border-radius: 1rem;
 }

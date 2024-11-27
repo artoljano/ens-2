@@ -2,6 +2,7 @@
   /* background-color: #212121; */
   /* min-height: calc(100vh + 2px); */
   position: relative;
+  /* margin-top: 10vh; */
   /* border: 8px solid red; */
 }
 
@@ -11,9 +12,10 @@
   height: 100%;
   display: flex;
   flex-direction: row;
+  /* border: 8px solid blue; */
 }
 
-.history-progress {
+/* .history-progress {
   border: 1px solid black;
   border-radius: 9.9rem;
   width: 1.6rem;
@@ -41,13 +43,30 @@
   height: 1rem;
   margin-top: -0.5rem;
   position: absolute;
-}
+} */
 
 .history-right {
-  position: absolute;
-  height: 100%;
+  position: sticky;
+  /* position: absolute; */
+  /* height: 100%; */
   width: 50%;
-  /* border: 8px solid red; */
+  /* border: 8px solid yellow; */
+  height: var(--swatch-size);
+
+  /* 
+			the swatch should stick halfway down the page
+			while the .container is in view
+		*/
+  position: sticky;
+  top: calc(50% - (var(--swatch-size) / 2));
+
+  /* 
+			for the duration of the --colours timeline,
+			step through the color-change animation
+		*/
+
+  /* define the swatch size as a variable for use above */
+  --swatch-size: clamp(50dvw, 300px, 75dvh);
 }
 
 .history-right_inner {
@@ -55,7 +74,7 @@
   height: 100%;
   position: relative;
   margin: 0 auto;
-  /* border: 8px solid blue; */
+  /* border: 8px solid orange; */
 }
 
 .history-right_inner p {
@@ -87,7 +106,7 @@
   ); */
 .history-left {
   position: relative;
-  margin-left: 50%;
+  /* margin-left: 50%; */
   height: 100%;
   width: 50%;
   /* border: 8px solid orange; */

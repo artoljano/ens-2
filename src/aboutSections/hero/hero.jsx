@@ -15,7 +15,7 @@ function Hero() {
             <h1>About Us</h1>
           </div>
           <div className="about-hero_subtitle">
-            <h2>Meet the Team Behind Our Vision</h2>
+            <h2>The Masters Behind The Curtains</h2>
           </div>
         </div>
       </div>
