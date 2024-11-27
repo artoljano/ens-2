@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ens-2/static/css/main.96f4cb3a.css",
-    "main.js": "/ens-2/static/js/main.f951295f.js",
+    "main.css": "/ens-2/static/css/main.10269acc.css",
+    "main.js": "/ens-2/static/js/main.390c9560.js",
     "static/js/453.8e88be91.chunk.js": "/ens-2/static/js/453.8e88be91.chunk.js",
     "static/media/MugoC.jpg": "/ens-2/static/media/MugoC.d76e161072633609a538.jpg",
     "static/media/Hero.png": "/ens-2/static/media/Hero.ec216241d745abdd7b35.png",
@@ -34,6 +34,7 @@
     "static/media/electricalSolution.jpg": "/ens-2/static/media/electricalSolution.b0a70201d7dbe2a913cb.jpg",
     "static/media/cctvSolution.jpg": "/ens-2/static/media/cctvSolution.acec97b7689176dce46a.jpg",
     "static/media/smart_home.jpg": "/ens-2/static/media/smart_home.5fed3cab1e3d8a7e03ef.jpg",
+    "static/media/group-picture.jpg": "/ens-2/static/media/group-picture.573fca11913115bddb2e.jpg",
     "static/media/exp.png": "/ens-2/static/media/exp.3a26f61c6426e952220f.png",
     "static/media/networkService.png": "/ens-2/static/media/networkService.55721b5d61798ffa65e6.png",
     "static/media/loyalty-m.jpg": "/ens-2/static/media/loyalty-m.7939a16f2f2a9391bb1c.jpg",
@@ -43,17 +44,21 @@
     "static/media/techtw.png": "/ens-2/static/media/techtw.a797ff24a5fd0e2b0a77.png",
     "static/media/cap-ac-back.png": "/ens-2/static/media/cap-ac-back.c0b3e7d12e4b78216e23.png",
     "static/media/EnsLogo.png": "/ens-2/static/media/EnsLogo.71328f8c1c35d5aafb50.png",
+    "static/media/colleagues.jpg": "/ens-2/static/media/colleagues.6853cc97d6ced723fc77.jpg",
+    "static/media/test-person2.jpg": "/ens-2/static/media/test-person2.18c39b5944751e5cd7a0.jpg",
+    "static/media/test-person1.webp": "/ens-2/static/media/test-person1.58c4b82ddf6961103e6b.webp",
     "static/media/quote.png": "/ens-2/static/media/quote.ba5c1f5ea881cb52d120.png",
+    "static/media/test-person.jpg": "/ens-2/static/media/test-person.972b6ee5dea0e7f418d2.jpg",
     "static/media/ruckus_logo.svg": "/ens-2/static/media/ruckus_logo.505a83a4bee1c5db1b6ee4ea2d9c49d0.svg",
     "static/media/mikrotik_logo.svg": "/ens-2/static/media/mikrotik_logo.2dc454e48cedf646b6b50792948b34b5.svg",
     "static/media/jung_logo.svg": "/ens-2/static/media/jung_logo.9c3fa60638e01b6c636f42991c2d3db7.svg",
     "index.html": "/ens-2/index.html",
-    "main.96f4cb3a.css.map": "/ens-2/static/css/main.96f4cb3a.css.map",
-    "main.f951295f.js.map": "/ens-2/static/js/main.f951295f.js.map",
+    "main.10269acc.css.map": "/ens-2/static/css/main.10269acc.css.map",
+    "main.390c9560.js.map": "/ens-2/static/js/main.390c9560.js.map",
     "453.8e88be91.chunk.js.map": "/ens-2/static/js/453.8e88be91.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.96f4cb3a.css",
-    "static/js/main.f951295f.js"
+    "static/css/main.10269acc.css",
+    "static/js/main.390c9560.js"
   ]
 }
