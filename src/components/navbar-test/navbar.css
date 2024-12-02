@@ -7,13 +7,11 @@
   box-sizing: border-box;
   align-items: center;
   justify-content: center;
-  padding: var(--view-margin);
   animation: appear-48c66b20 0.4s;
   --menu-item-color: var(--color-primary);
 }
 
 .ens__navbar {
-  position: relative;
   border: transparent whitesmoke;
   border-radius: 16px;
   z-index: 100;
@@ -25,7 +23,7 @@
   align-items: center;
   justify-content: flex-start;
   padding: 0 var(--layout-margin);
-  margin-top: 15px;
+  margin-top: 1vh;
   transition: all 0.2s;
 }
 
@@ -44,13 +42,14 @@
 }
 
 .ens__navbar-links_logo {
-  margin-left: 1rem;
+  width: 110px;
+  height: 60px;
 }
 
 .ens__navbar-links_logo img {
-  width: 110px;
-  height: 60px;
   color: black;
+  object-fit: contain;
+
   /* cursor: pointer; */
 }
 
@@ -109,4 +108,20 @@ a.nav-item:hover span:nth-child(2) {
 }
 a.nav-item:hover span:nth-child(1) {
   transition-delay: 0s;
+}
+
+@media screen and (max-width: 550px) {
+  .ens__navbar {
+    border-radius: 0px;
+    display: none;
+  }
+  .ens__navbar--scrolled {
+    background-color: var(--color-bg-menu);
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
+  }
+
+  .ens__navbar--scrolled p {
+    color: white;
+  }
 }

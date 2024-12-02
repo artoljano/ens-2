@@ -39,3 +39,30 @@
   border-bottom: 1px solid rgba(34, 35, 37, 0.32);
   padding-bottom: 16px;
 }
+
+@media screen and (max-width: 550px) {
+  .about-hero {
+    margin-top: 10vh;
+  }
+  .about-hero_container {
+    display: flex;
+    flex-direction: column;
+    padding-left: 2vw;
+  }
+
+  .about-hero_title {
+    font-size: 30px;
+    font-weight: 800;
+    letter-spacing: 0px;
+    padding-left: 1vw;
+  }
+
+  .about-hero_subtitle {
+    font-size: 15px;
+    padding-left: 1vw;
+  }
+
+  .about-hero_wrap {
+    grid-gap: 1vw;
+  }
+}

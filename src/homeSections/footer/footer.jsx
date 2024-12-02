@@ -7,10 +7,10 @@ function Footer() {
   const [time, setTime] = useState(new Date());
 
   useEffect(() => {
-    setInterval(() => setTime(new Date()), 1000);
+    setInterval(() => setTime(new Date()));
   });
 
-  console.log(time.getHours.toString());
+  console.log(time.getHours().toString());
 
   return (
     <section className="ens-footer text-white">
@@ -26,17 +26,23 @@ function Footer() {
           </div>
           <div className="footer-column col-2">
             <div className="footer-links">
-              <a href="#/contact" className="footer-link w-inline-block">
-                <div>Tirane, Albania</div>
-                <local-time
-                  data-time-zone="Europe/Amsterdam"
-                  className="hidden text-white/60 lg:flex"
-                >
-                  <span data-hours="">{time.getHours}</span>
-                  <span className="animate-blink">:</span>
-                  <span data-minutes="">{time.getMinutes}</span>
-                </local-time>
-              </a>
+              <div className="footer-links-location">
+                <a href="#/contact" className="footer-link w-inline-block">
+                  <div>
+                    Tirane, Albania &nbsp;
+                    <local-time
+                      data-time-zone="Europe/Albania"
+                      className="hidden lg:flex"
+                    >
+                      <a data-hours=""> {time.getHours()}</a>
+                      <a className="animate-blink">:</a>
+                      <a data-minutes="">
+                        {time.getMinutes().toString().padStart(2, "0")}
+                      </a>
+                    </local-time>
+                  </div>
+                </a>
+              </div>
               <a
                 href="#/contact"
                 className="footer-link-contact w-inline-block"

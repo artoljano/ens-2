@@ -1,5 +1,5 @@
-import React from 'react';
-import {Navbar, Navbar1 } from './components'
+import React, { useEffect } from 'react';
+import {Navbar, Navbar1, NavbarM } from './components'
 import {Hero, Hero2, Hero3, Feat, Footer, Partners, Partners1, Solutions, Projects } from './homeSections'
 
 import {
@@ -21,8 +21,13 @@ import './App.css';
 
 const App = () => (
 //   <HashRouter>
+
+
+
 <div>
+
             <Navbar1 />
+            <NavbarM />
             <Routes>
                 <Route exact path="/" element={<Home />} />
                 <Route path="/about" element={<About />} />

@@ -18,3 +18,12 @@
 .presentation-img {
   /* color: transparent; */
 }
+
+.presentation-content h2 {
+}
+
+@media screen and (max-width: 550px) {
+  /* .presentation-content h2 {
+    font-size: 15px;
+  } */
+}
