@@ -1,18 +1,21 @@
 .work-hero {
   margin-top: 40vh;
+  /* border: 6px solid red;*/
 }
 
 .work-hero_container {
-  padding: 0 5vh;
   width: 100%;
+  padding: 0 5vh;
   display: flex;
   flex-direction: row;
+  /* border: 6px solid blue; */
 }
 
 .work-hero_title {
   font-size: 170px;
   font-weight: 600;
   letter-spacing: -8px;
+  /* border: 6px solid yellow; */
 }
 
 .work-hero_subtitle {
@@ -24,7 +27,9 @@
   rotate: none;
   scale: none;
   opacity: 1;
+  margin-left: auto;
   transform: translate(0px, 0px);
+  /* border: 6px solid orange; */
 }
 
 .work-hero_wrap {
@@ -38,6 +43,8 @@
   align-items: center;
   border-bottom: 1px solid rgba(34, 35, 37, 0.32);
   padding-bottom: 16px;
+
+  /* border: 6px solid purple; */
 }
 
 @media screen and (max-width: 550px) {
@@ -47,14 +54,14 @@
   .work-hero_container {
     display: flex;
     flex-direction: column;
-    padding-left: 2vw;
+    padding: 0;
   }
 
   .work-hero_title {
     font-size: 40px;
     font-weight: 800;
-    letter-spacing: 1px;
-    padding-left: 1vw;
+    letter-spacing: 0px;
+    padding-left: 4vw;
   }
 
   .work-hero_subtitle {

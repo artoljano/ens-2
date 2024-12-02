@@ -84,13 +84,13 @@ function NavbarM() {
         {showMenu ? (
           <RiCloseLine
             color="black"
-            size={27}
+            size={30}
             onClick={() => setShowMenu(false)}
           />
         ) : (
           <RiMenu3Line
             color="black"
-            size={27}
+            size={30}
             onClick={() => setShowMenu(true)}
           />
         )}
