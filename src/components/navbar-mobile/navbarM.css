@@ -13,6 +13,7 @@
   .navbarM {
     display: flex;
     flex-direction: row;
+    z-index: 402;
   }
 }
 
