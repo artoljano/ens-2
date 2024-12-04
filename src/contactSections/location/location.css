@@ -67,6 +67,7 @@
     display: flex;
     flex-direction: column;
     gap: 2vh;
+    margin-left: 3vw;
   }
 
   .location-left h1 {
@@ -76,10 +77,16 @@
   }
 
   .location-right {
+    position: relative;
     max-width: 100%;
+    margin: 0 auto;
     align-items: center;
     justify-content: center;
+    padding-right: 0;
+    padding: 2vw;
+    /* margin-right: auto;*/
     margin-top: 5vh;
+
     /* border: 8px solid red;*/
   }
 }

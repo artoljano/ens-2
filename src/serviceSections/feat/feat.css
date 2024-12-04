@@ -198,3 +198,9 @@
 .work-service_off_row {
   gap: 8vw;
 }
+
+@media screen and (max-width: 550px) {
+  .wrapp {
+    display: none;
+  }
+}

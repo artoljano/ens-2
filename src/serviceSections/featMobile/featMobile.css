@@ -1,0 +1,44 @@
+.m-wrapp {
+  display: none;
+}
+
+@media screen and (max-width: 550px) {
+  .m-wrapp {
+    display: flex;
+    width: 100%;
+    padding: 0 20px;
+    margin-top: 20vh;
+  }
+  .work {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+
+  .m-work-right {
+    position: relative;
+    margin: 0;
+  }
+
+  .m-work-right-bl {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .m-work-photo {
+    /* width: 40vw;
+    height: 40vw; */
+    position: relative;
+  }
+
+  .m-work-photo-item {
+    width: 100%;
+
+    cursor: pointer;
+    border-radius: 80px;
+    overflow: hidden;
+    margin-top: 2vh;
+  }
+}
