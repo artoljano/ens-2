@@ -10,7 +10,7 @@ function Footer() {
     setInterval(() => setTime(new Date()));
   });
 
-  console.log(time.getHours().toString());
+  // console.log(time.getHours().toString());
 
   return (
     <section className="ens-footer text-white">

@@ -138,14 +138,11 @@ function Catalog() {
       <div className="catalog-filter-divider section__padding"></div>
       <div className="catalog-container">
         {arrayChunk(filteredProducts, 3).map((row, rowIndex) => (
-          <div
-            key={rowIndex}
-            className="catalog-row col-12 col-md-6 col-xl-4 p-4"
-          >
+          <div key={rowIndex} className="catalog-row">
             {row.map((product, productIndex) => (
               <div
                 key={product.id} // Use a unique product id if available
-                className="catalog-single col-12 col-md-6 col-xl-4 p-4"
+                className="catalog-single"
               >
                 <div
                   onMouseEnter={() => handleMouseEnter(product.id)} // Set the hover state for the current product
