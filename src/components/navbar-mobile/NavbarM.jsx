@@ -1,104 +1,183 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "./navbarM.css";
 import { RiMenu3Line, RiCloseLine } from "react-icons/ri";
 import logo from "../../assets/navbar/EnsLogo.png";
+import $ from "jquery";
 
-const Menu = () => (
-  <>
-    <p>
-      <a href="/" className="hover-shadow hover-color nav-item">
-        <span>H</span>
-        <span>o</span>
-        <span>m</span>
-        <span>e</span>
-      </a>
-    </p>
-    <p>
-      <a href="#/products" className="hover-shadow hover-color nav-item">
-        <span>P</span>
-        <span>r</span>
-        <span>o</span>
-        <span>d</span>
-        <span>u</span>
-        <span>t</span>
-        <span>s</span>
-      </a>
-    </p>
-    <p>
-      <a href="#/about" className="hover-shadow hover-color nav-item">
-        <span>A</span>
-        <span>b</span>
-        <span>o</span>
-        <span>u</span>
-        <span>t</span>
-      </a>
-    </p>
-    <p>
-      <a href="#/services" className="hover-shadow hover-color nav-item">
-        <span>S</span>
-        <span>e</span>
-        <span>r</span>
-        <span>v</span>
-        <span>i</span>
-        <span>c</span>
-        <span>e</span>
-        <span>s</span>
-      </a>
-    </p>
-    <p>
-      <a href="#/projects" className="hover-shadow hover-color nav-item">
-        {/* <span>O</span>
-          <span>u</span>
-          <span>r</span>
-          <span> </span> */}
-        <span>W</span>
-        <span>o</span>
-        <span>r</span>
-        <span>k</span>
-      </a>
-    </p>
-    <p>
-      <a href="#/contact" className="hover-shadow hover-color nav-item">
-        <span>C</span>
-        <span>o</span>
-        <span>n</span>
-        <span>t</span>
-        <span>a</span>
-        <span>c</span>
-        <span>t</span>
-      </a>
-    </p>
-  </>
-);
+// const Menu = () => (
+//   <>
+//     <p>
+//       <a href="/" className="m-nav-item" onClick={() => setShowMenu(false)}>
+//         <span>Home</span>
+//       </a>
+//     </p>
+//     <p>
+//       <a
+//         href="#/products"
+//         className="m-nav-item"
+//         onClick={() => setShowMenu(false)}
+//       >
+//         <span>Products</span>
+//       </a>
+//     </p>
+//     <p>
+//       <a
+//         href="#/about"
+//         className="m-nav-item"
+//         onClick={() => setShowMenu(false)}
+//       >
+//         <span>About</span>
+//       </a>
+//     </p>
+//     <p>
+//       <a
+//         href="#/services"
+//         className="m-nav-item"
+//         onClick={() => setShowMenu(false)}
+//       >
+//         <span>Services</span>
+//       </a>
+//     </p>
+//     <p>
+//       <a
+//         href="#/projects"
+//         className="m-nav-item"
+//         onClick={() => setShowMenu(false)}
+//       >
+//         <span>Work</span>
+//       </a>
+//     </p>
+//     <p>
+//       <a
+//         href="#/contact"
+//         className="m-nav-item"
+//         onClick={() => setShowMenu(false)}
+//       >
+//         <span>Contact</span>
+//       </a>
+//     </p>
+//   </>
+// );
 
 function NavbarM() {
   const [showMenu, setShowMenu] = useState(false);
+
+  useEffect(() => {
+    if (showMenu === true) {
+      document.body.classList.add("no-scroll");
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.classList.remove("no-scroll");
+      document.body.style.overflow = "scroll";
+    }
+    console.log(showMenu);
+  });
+
   return (
     <div className="navbarM">
       <div className="navbarM-logo">
         <a href="/">
-          <img src={logo} alt="logo" />
+          <img
+            src={logo}
+            alt="logo"
+            style={{
+              zIndex: "801",
+              position: "absolute",
+              left: "2vh",
+
+              width: "110px",
+              heigh: "60px",
+            }}
+          />
         </a>
       </div>
       <div className="navbarM-menu">
         {showMenu ? (
           <RiCloseLine
-            color="black"
+            color="orange"
+            style={{
+              zIndex: "801",
+              position: "absolute",
+              right: "2vh",
+              top: "2vh",
+            }}
             size={30}
             onClick={() => setShowMenu(false)}
           />
         ) : (
           <RiMenu3Line
-            color="black"
+            color="orange"
+            style={{
+              zIndex: "801",
+              position: "absolute",
+              right: "2vh",
+              top: "2vh",
+            }}
             size={30}
             onClick={() => setShowMenu(true)}
           />
         )}
         {showMenu && (
-          <div className="ens__navbar-menu_container scale-up-center">
-            <div className="ens__navbar-menu_container-links">
-              <Menu />
-            </div>
+          <div
+            className="ens__navbar-menu_container"
+            style={{ overflow: "hidden" }}
+          >
+            {/* <div className="ens__navbar-menu_container-links"> */}
+            <p>
+              <a
+                href="/"
+                className="m-nav-item"
+                onClick={() => setShowMenu(false)}
+              >
+                <span>Home</span>
+              </a>
+            </p>
+            <p>
+              <a
+                href="#/products"
+                className="m-nav-item"
+                onClick={() => setShowMenu(false)}
+              >
+                <span>Products</span>
+              </a>
+            </p>
+            <p>
+              <a
+                href="#/about"
+                className="m-nav-item"
+                onClick={() => setShowMenu(false)}
+              >
+                <span>About</span>
+              </a>
+            </p>
+            <p>
+              <a
+                href="#/services"
+                className="m-nav-item"
+                onClick={() => setShowMenu(false)}
+              >
+                <span>Services</span>
+              </a>
+            </p>
+            <p>
+              <a
+                href="#/projects"
+                className="m-nav-item"
+                onClick={() => setShowMenu(false)}
+              >
+                <span>Work</span>
+              </a>
+            </p>
+            <p>
+              <a
+                href="#/contact"
+                className="m-nav-item"
+                onClick={() => setShowMenu(false)}
+              >
+                <span>Contact</span>
+              </a>
+            </p>
+            {/* </div> */}
           </div>
         )}
       </div>

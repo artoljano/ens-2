@@ -1,0 +1,115 @@
+.m-footer {
+  display: none;
+}
+
+@media screen and (max-width: 550px) {
+  .m-footer {
+    display: block;
+    min-height: 60vh;
+    padding-top: 5vh;
+    margin-top: 10vh;
+    border-top: 1px solid rgba(34, 35, 37, 0.32);
+    /* background-color: #818285; */
+    /* border: 8px solid red; */
+  }
+
+  .m-footer-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* margin-left: auto;
+    margin-right: auto; */
+  }
+
+  .m-footer-top {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .m-footer-company {
+    margin: 0 auto;
+  }
+
+  .m-footer-company p {
+    font-family: var(--font-family);
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 125%;
+    color: var(--color-logo-orange);
+    margin-top: 2vh;
+    /* margin-left: -0.7vw; */
+  }
+
+  .m-footer-bottom {
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .m-footer-bottom-left {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .m-footer-link {
+    font-size: 1.2rem;
+    font-weight: 800;
+    color: var(--color-link-items);
+    font-family: var(--font-family);
+    padding-bottom: 0.8rem;
+    margin: 0 auto;
+    text-decoration: none;
+  }
+  .m-footer-link span {
+    color: black;
+  }
+
+  .m-footer-bottom-right {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .m-footer-links-location {
+    display: flex;
+    flex-direction: row;
+  }
+  .m-footer-link a {
+    font-size: 1.2rem;
+    font-weight: 800;
+
+    color: hsl(225, 2%, 51%);
+    font-family: var(--font-family);
+  }
+
+  .m-footer-link-contact {
+    padding: 0.5rem;
+    margin: 0 auto;
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-decoration: none;
+    /* color: var(--color-link-items); */
+    color: #818285;
+    font-family: var(--font-family);
+  }
+  .m-social {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    margin-top: 2vh;
+  }
+
+  .m-social-icon {
+    background-color: transparent;
+    color: var(--color-link-items);
+    justify-content: center;
+    align-items: center;
+    width: 10vw;
+    height: 10vh;
+    transition: all 0.2s;
+    display: flex;
+    color: orange;
+  }
+}

@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import {Navbar, Navbar1, NavbarM } from './components'
+import {Navbar, Navbar1, NavbarM, FooterM } from './components'
 import {Hero, Hero2, Hero3, Feat, Footer, Partners, Partners1, Solutions, Projects } from './homeSections'
 
 import {
@@ -46,6 +46,7 @@ const App = () => (
                 />
             </Routes>
             <Footer />
+            <FooterM />
             </div>
         /* </HashRouter> */
 );
