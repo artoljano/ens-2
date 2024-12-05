@@ -45,7 +45,7 @@ const App = () => (
                     element={<Contact />}
                 />
             </Routes>
-            {/* <Footer /> */}
+            <Footer />
             </div>
         /* </HashRouter> */
 );

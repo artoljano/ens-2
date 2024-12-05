@@ -9,7 +9,7 @@ import cctv from "../../assets/feat/cctv.jpg";
 
 function FeatMobile() {
   return (
-    <section className="m-wrapp section__padding">
+    <section className="m-wrapp">
       <div className="m-work">
         <div className="m-work-right">
           <div className="m-work-right-bl">
@@ -38,7 +38,7 @@ function FeatMobile() {
                 <div className="m-work-service_off">
                   <div className="m-work-service_off_row">
                     <div className="m-work-service_off_single">
-                      <p> 01</p>
+                      <p className="m-work-service_number"> 01</p>
 
                       <p className="m-work-body-description-first">
                         Lighting (ON/OFF or dimmer)
@@ -46,7 +46,7 @@ function FeatMobile() {
                       </p>
                     </div>
                     <div className="m-work-service_off_single">
-                      <p> 02</p>
+                      <p className="m-work-service_number"> 02</p>
 
                       <p className="m-work-body-description-first">
                         Openings (curtains, rolling shutters)
@@ -56,7 +56,7 @@ function FeatMobile() {
                   </div>
                   <div className="m-work-service_off_row">
                     <div className="m-work-service_off_single">
-                      <p> 03</p>
+                      <p className="m-work-service_number"> 03</p>
 
                       <p className="m-work-body-description-first">
                         HVAC system Guest services (DND-DoNotDisturb,
@@ -65,7 +65,7 @@ function FeatMobile() {
                       </p>
                     </div>
                     <div className="m-work-service_off_single">
-                      <p> 04</p>
+                      <p className="m-work-service_number"> 04</p>
 
                       <p className="m-work-body-description-first">
                         Guest presence/absence detection
@@ -75,7 +75,7 @@ function FeatMobile() {
                   </div>
                   <div className="m-work-service_off_row">
                     <div className="m-work-service_off_single">
-                      <p> 05</p>
+                      <p className="m-work-service_number"> 05</p>
 
                       <p className="m-work-body-description-first">
                         Seamless communication with Front Office Desk via
@@ -95,7 +95,7 @@ function FeatMobile() {
                   Network Solutions
                   <br />
                 </h1>
-                <div className="work-info-bar"></div>
+                <div className="m-work-info-bar"></div>
               </div>
               <div className="m-work-body">
                 <div className="m-work-service_desc">
@@ -116,7 +116,7 @@ function FeatMobile() {
                 <div className="m-work-service_off">
                   <div className="m-work-service_off_row">
                     <div className="m-work-service_off_single">
-                      <p> 01</p>
+                      <p className="m-work-service_number"> 01</p>
 
                       <p className="m-work-body-description-first">
                         Designing and Implementation of LAN
@@ -124,7 +124,7 @@ function FeatMobile() {
                       </p>
                     </div>
                     <div className="m-work-service_off_single">
-                      <p> 02</p>
+                      <p className="m-work-service_number"> 02</p>
 
                       <p className="m-work-body-description-first">
                         Network Auditing
@@ -134,7 +134,7 @@ function FeatMobile() {
                   </div>
                   <div className="m-work-service_off_row">
                     <div className="m-work-service_off_single">
-                      <p> 03</p>
+                      <p className="m-work-service_number"> 03</p>
 
                       <p className="m-work-body-description-first">
                         Site Planning using operation research techniques and
@@ -143,7 +143,7 @@ function FeatMobile() {
                       </p>
                     </div>
                     <div className="m-work-service_off_single">
-                      <p> 04</p>
+                      <p className="m-work-service_number"> 04</p>
 
                       <p className="m-work-body-description-first">
                         Network Management
@@ -153,7 +153,7 @@ function FeatMobile() {
                   </div>
                   <div className="m-work-service_off_row">
                     <div className="m-work-service_off_single">
-                      <p> 05</p>
+                      <p className="m-work-service_number"> 05</p>
 
                       <p className="m-work-body-description-first">
                         Network Security Planning and Implementation
@@ -161,7 +161,7 @@ function FeatMobile() {
                       </p>
                     </div>
                     <div className="m-work-service_off_single">
-                      <p> 06</p>
+                      <p className="m-work-service_number"> 06</p>
 
                       <p className="m-work-body-description-first">
                         Structured Cabling
@@ -171,7 +171,7 @@ function FeatMobile() {
                   </div>
                   <div className="m-work-service_off_row">
                     <div className="m-work-service_off_single">
-                      <p> 07</p>
+                      <p className="m-work-service_number"> 07</p>
 
                       <p className="m-work-body-description-first">
                         Best network devices
@@ -179,7 +179,7 @@ function FeatMobile() {
                       </p>
                     </div>
                     <div className="m-work-service_off_single">
-                      <p> 08</p>
+                      <p className="m-work-service_number"> 08</p>
 
                       <p className="m-work-body-description-first">
                         Excellent IT support service
@@ -218,7 +218,7 @@ function FeatMobile() {
                 <div className="m-work-service_off">
                   <div className="m-work-service_off_row">
                     <div className="m-work-service_off_single">
-                      <p> 01</p>
+                      <p className="m-work-service_number"> 01</p>
 
                       <p className="m-work-body-description-first">
                         Project design
@@ -226,7 +226,7 @@ function FeatMobile() {
                       </p>
                     </div>
                     <div className="m-work-service_off_single">
-                      <p> 02</p>
+                      <p className="m-work-service_number"> 02</p>
 
                       <p className="m-work-body-description-first">
                         Selection of the best type and quantity of cable and
@@ -238,7 +238,7 @@ function FeatMobile() {
                   </div>
                   <div className="m-work-service_off_row">
                     <div className="m-work-service_off_single">
-                      <p> 03</p>
+                      <p className="m-work-service_number"> 03</p>
 
                       <p className="m-work-body-description-first">
                         Precise labeling of cables to identify functions for
@@ -247,7 +247,7 @@ function FeatMobile() {
                       </p>
                     </div>
                     <div className="m-work-service_off_single">
-                      <p> 04</p>
+                      <p className="m-work-service_number"> 04</p>
 
                       <p className="m-work-body-description-first">
                         Measurements for ensuring proper placement of designated
@@ -258,7 +258,7 @@ function FeatMobile() {
                   </div>
                   <div className="m-work-service_off_row">
                     <div className="m-work-service_off_single">
-                      <p> 05</p>
+                      <p className="m-work-service_number"> 05</p>
 
                       <p className="m-work-body-description-first">
                         Monitoring
@@ -266,7 +266,7 @@ function FeatMobile() {
                       </p>
                     </div>
                     <div className="m-work-service_off_single">
-                      <p> 06</p>
+                      <p className="m-work-service_number"> 06</p>
 
                       <p className="m-work-body-description-first">
                         Delivery
@@ -276,7 +276,7 @@ function FeatMobile() {
                   </div>
                   <div className="m-work-service_off_row">
                     <div className="m-work-service_off_single">
-                      <p> 07</p>
+                      <p className="m-work-service_number"> 07</p>
 
                       <p className="m-work-body-description-first">
                         Maintenance
@@ -284,7 +284,7 @@ function FeatMobile() {
                       </p>
                     </div>
                     <div className="m-work-service_off_single">
-                      <p> 08</p>
+                      <p className="m-work-service_number"> 08</p>
 
                       <p className="m-work-body-description-first">
                         Excellent support service
@@ -321,7 +321,7 @@ function FeatMobile() {
                 <div className="m-work-service_off">
                   <div className="m-work-service_off_row">
                     <div className="m-work-service_off_single">
-                      <p> 01</p>
+                      <p className="m-work-service_number"> 01</p>
 
                       <p className="m-work-body-description-first">
                         Characteristic design
@@ -329,7 +329,7 @@ function FeatMobile() {
                       </p>
                     </div>
                     <div className="m-work-service_off_single">
-                      <p> 02</p>
+                      <p className="m-work-service_number"> 02</p>
 
                       <p className="m-work-body-description-first">
                         Innovative products
@@ -339,7 +339,7 @@ function FeatMobile() {
                   </div>
                   <div className="m-work-service_off_row">
                     <div className="m-work-service_off_single">
-                      <p> 03</p>
+                      <p className="m-work-service_number"> 03</p>
 
                       <p className="m-work-body-description-first">
                         Shading systems
@@ -347,7 +347,7 @@ function FeatMobile() {
                       </p>
                     </div>
                     <div className="m-work-service_off_single">
-                      <p> 04</p>
+                      <p className="m-work-service_number"> 04</p>
 
                       <p className="m-work-body-description-first">
                         Modular, acoustically-effective partitioning
@@ -357,7 +357,7 @@ function FeatMobile() {
                   </div>
                   <div className="m-work-service_off_row">
                     <div className="m-work-service_off_single">
-                      <p> 05</p>
+                      <p className="m-work-service_number"> 05</p>
 
                       <p className="m-work-body-description-first">
                         High-quality LED lighting systems, battery powered
@@ -396,7 +396,7 @@ function FeatMobile() {
                 <div className="m-work-service_off">
                   <div className="m-work-service_off_row">
                     <div className="m-work-service_off_single">
-                      <p> 01</p>
+                      <p className="m-work-service_number"> 01</p>
 
                       <p className="m-work-body-description-first">
                         CCTV systems maintenance for medium and large
@@ -405,7 +405,7 @@ function FeatMobile() {
                       </p>
                     </div>
                     <div className="m-work-service_off_single">
-                      <p> 02</p>
+                      <p className="m-work-service_number"> 02</p>
 
                       <p className="m-work-body-description-first">
                         CCTV configuration and management at government
@@ -416,7 +416,7 @@ function FeatMobile() {
                   </div>
                   <div className="m-work-service_off_row">
                     <div className="m-work-service_off_single">
-                      <p> 03</p>
+                      <p className="m-work-service_number"> 03</p>
 
                       <p className="m-work-body-description-first">
                         Installation and setup of CCTV systems ranging from 20
@@ -425,7 +425,7 @@ function FeatMobile() {
                       </p>
                     </div>
                     <div className="m-work-service_off_single">
-                      <p> 04</p>
+                      <p className="m-work-service_number"> 04</p>
 
                       <p className="m-work-body-description-first">
                         Full on-site design and implementation of the CCTV
@@ -436,7 +436,7 @@ function FeatMobile() {
                   </div>
                   <div className="m-work-service_off_row">
                     <div className="m-work-service_off_single">
-                      <p> 05</p>
+                      <p className="m-work-service_number"> 05</p>
 
                       <p className="m-work-body-description-first">
                         Setup of CCTV feeds over wireless, wired, and
@@ -445,7 +445,7 @@ function FeatMobile() {
                       </p>
                     </div>
                     <div className="m-work-service_off_single">
-                      <p> 06</p>
+                      <p className="m-work-service_number"> 06</p>
 
                       <p className="m-work-body-description-first">
                         Maintenance

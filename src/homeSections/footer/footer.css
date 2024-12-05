@@ -202,3 +202,9 @@ a.hover-color:hover {
   color: hsl(225, 2%, 51%);
   font-family: var(--font-family);
 }
+
+@media screen and (max-width: 550px) {
+  .ens-footer {
+    display: none;
+  }
+}

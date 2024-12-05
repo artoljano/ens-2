@@ -151,10 +151,6 @@
 .work-title h1 {
   font-size: 4rem;
   font-weight: 800;
-
-  @media (min-width: 1024px) {
-    color: 65px;
-  }
 }
 
 .work-info-bar {

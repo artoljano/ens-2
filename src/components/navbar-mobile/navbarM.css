@@ -1,6 +1,7 @@
 .navbarM {
   display: none;
   margin-top: 1vh;
+  width: 100%;
   /* border: 6px solid red; */
 }
 
@@ -38,7 +39,7 @@
 
 .navbarM-menu {
   position: absolute;
-  right: 1.5vw;
+  right: 2vw;
   top: 1.6vh;
 
   /* border: 6px solid orange; */
