@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/ens-2/static/css/main.259a7faf.css",
+    "main.css": "/ens-2/static/css/main.75a66d1a.css",
     "main.js": "/ens-2/static/js/main.1b7b034f.js",
     "static/js/453.8e88be91.chunk.js": "/ens-2/static/js/453.8e88be91.chunk.js",
     "static/media/MugoC.jpg": "/ens-2/static/media/MugoC.d76e161072633609a538.jpg",
@@ -53,12 +53,12 @@
     "static/media/mikrotik_logo.svg": "/ens-2/static/media/mikrotik_logo.2dc454e48cedf646b6b50792948b34b5.svg",
     "static/media/jung_logo.svg": "/ens-2/static/media/jung_logo.9c3fa60638e01b6c636f42991c2d3db7.svg",
     "index.html": "/ens-2/index.html",
-    "main.259a7faf.css.map": "/ens-2/static/css/main.259a7faf.css.map",
+    "main.75a66d1a.css.map": "/ens-2/static/css/main.75a66d1a.css.map",
     "main.1b7b034f.js.map": "/ens-2/static/js/main.1b7b034f.js.map",
     "453.8e88be91.chunk.js.map": "/ens-2/static/js/453.8e88be91.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.259a7faf.css",
+    "static/css/main.75a66d1a.css",
     "static/js/main.1b7b034f.js"
   ]
 }
