@@ -97,7 +97,7 @@ function NavbarM() {
               style={{ overflow: "hidden" }}
               variants={item}
               initial={{ height: "0", opacity: 0 }}
-              animate={{ height: "100vh", opacity: 1 }}
+              animate={{ height: "102vh", opacity: 1 }}
               transition={{ duration: 0.5 }}
               exit="exit"
             >
