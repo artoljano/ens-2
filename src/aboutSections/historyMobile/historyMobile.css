@@ -46,6 +46,8 @@
     margin-left: 0.05rem;
     margin-top: -0.65rem;
     position: absolute;
+    scroll-behavior: smooth;
+    transition: ease;
     /* transform: translateY(2400%); */
   }
 
