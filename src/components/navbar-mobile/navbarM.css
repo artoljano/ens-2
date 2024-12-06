@@ -12,8 +12,8 @@
     position: fixed;
     z-index: 450;
     top: 0;
-    left: 0;
     width: 100%;
+    /* width: 100%; */
     transition: all 0.2s;
   }
 
@@ -25,11 +25,10 @@
 
   .navbarM--border {
     border: whitesmoke;
-    border-radius: 16px;
   }
 
   .navbarM-logo {
-    margin-left: 5vw;
+    /* margin-left: 5vw; */
     width: 60px;
     height: 60px;
 
@@ -58,7 +57,7 @@
     width: 100%;
     height: 100vh;
     left: 0;
-    top: 0 !important;
+    top: -2vh;
     background-color: black;
     overflow: hidden;
     z-index: 500;
