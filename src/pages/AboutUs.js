@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 
-import {Hero, Team, Header, History, Background, Intro} from '../aboutSections'
+import {Hero, Team, Header, History, Background, Intro, HistoryMobile} from '../aboutSections'
 
 
 
@@ -11,6 +11,7 @@ const AboutUs = () => (
     <Background />
     <Intro />
     <History />
+    <HistoryMobile />
     <Header />
     <Team />
    

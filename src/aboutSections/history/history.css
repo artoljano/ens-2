@@ -143,3 +143,13 @@
 .history-left_item-description {
   font-size: 1.3rem;
 }
+
+.history-right-mobile {
+  display: none;
+}
+
+@media screen and (max-width: 550px) {
+  .history {
+    display: none;
+  }
+}

@@ -3,3 +3,9 @@
   margin-top: 1vh;
   height: 70vh;
 }
+
+@media screen and (max-width: 550px) {
+  .background {
+    height: 60vh;
+  }
+}
