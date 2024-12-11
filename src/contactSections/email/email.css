@@ -93,7 +93,7 @@
   box-shadow: 0 0 0 0 #fff inset, #f2ab29 0 0 0 2px;
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 600px) {
   .contact-form {
   }
 

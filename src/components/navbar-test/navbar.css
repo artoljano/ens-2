@@ -110,7 +110,7 @@ a.nav-item:hover span:nth-child(1) {
   transition-delay: 0s;
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 600px) {
   .ens__navbar {
     border-radius: 0px;
     display: none;

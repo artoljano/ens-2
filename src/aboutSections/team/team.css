@@ -97,7 +97,7 @@
   display: none;
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 600px) {
   .ens-team {
     background-color: white;
     position: relative;
@@ -130,7 +130,7 @@
   }
 
   .ens-team_item-name {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: 800;
     /* border: 8px solid orange; */
   }

@@ -49,7 +49,7 @@
   /* border: 8px solid red;*/
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 600px) {
   .location {
     margin-top: 10vh;
   }

@@ -5,7 +5,7 @@
   /* border: 6px solid red; */
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 600px) {
   .navbarM {
     display: flex;
     flex-direction: row;

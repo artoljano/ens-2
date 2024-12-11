@@ -2,7 +2,7 @@
   display: none;
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 600px) {
   .historyMobile {
     display: block;
     margin-top: 5vh;
