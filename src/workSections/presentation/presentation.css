@@ -27,3 +27,21 @@
     font-size: 15px;
   } */
 }
+
+@media screen and (max-width: 768px) {
+  .presentation {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    position: relative;
+    min-height: 800px;
+    margin-top: 10vh;
+  }
+
+  .persentation-grid {
+    gap: 5vh;
+  }
+  .view__grid-item {
+    margin-bottom: 10vh;
+  }
+}

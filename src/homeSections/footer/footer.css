@@ -208,3 +208,9 @@ a.hover-color:hover {
     display: none;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .ens-footer {
+    display: none;
+  }
+}

@@ -125,3 +125,19 @@ a.nav-item:hover span:nth-child(1) {
     color: white;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .ens__navbar {
+    border-radius: 0px;
+    display: none;
+  }
+  .ens__navbar--scrolled {
+    background-color: var(--color-bg-menu);
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
+  }
+
+  .ens__navbar--scrolled p {
+    color: white;
+  }
+}

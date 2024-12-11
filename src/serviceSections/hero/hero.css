@@ -68,3 +68,32 @@
     grid-gap: 1vw;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .services-hero {
+    margin-top: 20vh;
+  }
+
+  .services-hero_container {
+    display: flex;
+    flex-direction: column;
+    padding-left: 2vw;
+  }
+
+  .services-hero_title {
+    font-size: 80px;
+    font-weight: 800;
+    letter-spacing: 0px;
+    padding-left: 1vw;
+  }
+
+  .services-hero_subtitle {
+    font-size: 30px;
+    padding-left: 0vw;
+    margin-left: 0;
+  }
+
+  .services-hero_wrap {
+    grid-gap: 6vw;
+  }
+}

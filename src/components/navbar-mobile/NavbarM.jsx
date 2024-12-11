@@ -124,7 +124,7 @@ function NavbarM() {
               </p>
               <p>
                 <motion.a
-                  href="#/products"
+                  href="/#/products"
                   className="m-nav-item"
                   onClick={() => setShowMenu(false)}
                   initial={{ y: "90", opacity: 0 }}
@@ -144,7 +144,7 @@ function NavbarM() {
               </p>
               <p>
                 <motion.a
-                  href="#/about"
+                  href="/#/about"
                   className="m-nav-item"
                   onClick={() => setShowMenu(false)}
                   initial={{ y: "90", opacity: 0 }}
@@ -164,7 +164,7 @@ function NavbarM() {
               </p>
               <p>
                 <motion.a
-                  href="#/services"
+                  href="/#/services"
                   className="m-nav-item"
                   onClick={() => setShowMenu(false)}
                   initial={{ y: "90", opacity: 0 }}
@@ -184,7 +184,7 @@ function NavbarM() {
               </p>
               <p>
                 <motion.a
-                  href="#/projects"
+                  href="/#/projects"
                   className="m-nav-item"
                   onClick={() => setShowMenu(false)}
                   initial={{ y: "90", opacity: 0 }}
@@ -204,7 +204,7 @@ function NavbarM() {
               </p>
               <p>
                 <motion.a
-                  href="#/contact"
+                  href="/#/contact"
                   className="m-nav-item"
                   onClick={() => setShowMenu(false)}
                   initial={{ y: "90", opacity: 0 }}

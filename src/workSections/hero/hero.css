@@ -68,3 +68,32 @@
     grid-gap: 1vw;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .work-hero {
+    margin-top: 20vh;
+  }
+
+  .work-hero_container {
+    display: flex;
+    flex-direction: column;
+    padding-left: 2vw;
+  }
+
+  .work-hero_title {
+    font-size: 80px;
+    font-weight: 800;
+    letter-spacing: 0px;
+    padding-left: 1vw;
+  }
+
+  .work-hero_subtitle {
+    font-size: 30px;
+    padding-left: 0vw;
+    margin-left: 0;
+  }
+
+  .work-hero_wrap {
+    grid-gap: 6vw;
+  }
+}

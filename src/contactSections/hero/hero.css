@@ -68,3 +68,32 @@
     grid-gap: 1vw;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .contact-hero {
+    margin-top: 20vh;
+  }
+
+  .contact-hero_container {
+    display: flex;
+    flex-direction: column;
+    padding-left: 2vw;
+  }
+
+  .contact-hero_title {
+    font-size: 80px;
+    font-weight: 800;
+    letter-spacing: 0px;
+    padding-left: 1vw;
+  }
+
+  .contact-hero_subtitle {
+    font-size: 30px;
+    padding-left: 0vw;
+    margin-left: 0;
+  }
+
+  .contact-hero_wrap {
+    grid-gap: 6vw;
+  }
+}

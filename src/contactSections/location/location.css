@@ -90,3 +90,55 @@
     /* border: 8px solid red;*/
   }
 }
+
+@media screen and (max-width: 768px) {
+  .location {
+    margin-top: 10vh;
+  }
+
+  .location-header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+    padding: 0;
+  }
+
+  .location-left {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    margin-left: 3vw;
+  }
+
+  .location-left h1 {
+    font-size: 3rem;
+    font-weight: 600;
+    margin: 0 auto;
+    margin-bottom: 5vh;
+  }
+
+  .location-left p {
+    margin: auto;
+  }
+
+  .button-container {
+    margin: 0 auto;
+    margin-top: 5vh;
+  }
+
+  .location-right {
+    position: relative;
+    max-width: 100%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    padding-right: 0;
+    padding: 2vw;
+    /* margin-right: auto;*/
+    margin-top: 5vh;
+
+    /* border: 8px solid red;*/
+  }
+}
