@@ -94,28 +94,7 @@
 }
 
 @media screen and (max-width: 550px) {
-  .button {
-    width: 100px;
-    height: 30px;
-    border: 1px solid #000;
-    background: transparent;
-    margin: 2px 2px;
-    border-radius: 5px;
-    padding: 2px 2px;
-    cursor: pointer;
-    transition: all 0.2s ease-in-out;
-    font-size: 0.8rem;
-    font-weight: 600;
-  }
-
-  .active {
-    background-color: #1e293b;
-    color: #fff;
-    border: 3px outset #ddd;
-    color: #fff;
-    background: linear-gradient(160deg, #f2ab29, #f2ab29);
-    text-shadow: 0px 0px 4px #ccc;
-    box-shadow: 0 0 10px #fff, 0 0 40px #fff, 0 0 80px #fff;
-    transition-delay: 0.2s;
+  .catalog {
+    display: none;
   }
 }

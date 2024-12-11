@@ -11,7 +11,7 @@ function email() {
         <div className="header-right">
           <p>We will schedule a first meeting with you within a few hours.</p>
           <p>
-            Want to learn more <a href="/about">about us</a>?
+            Want to learn more <a href="/#/about">about us</a>?
           </p>
         </div>
       </div>

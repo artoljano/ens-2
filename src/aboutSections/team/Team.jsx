@@ -63,7 +63,7 @@ function Team() {
   // Mouse enter handler
   const handleMouseEnter = (index) => {
     setHoveredIndex(index); // Set the hovered index when a product is hovered
-    console.log(index);
+    // console.log(index);
   };
 
   // Mouse leave handler
@@ -74,6 +74,16 @@ function Team() {
   return (
     <section className="ens-team section__padding">
       <div className="ens-team_wrapper">
+        <p
+          className="ens-item_close"
+          style={{
+            opacity: hoveredIndex != null ? 1 : 0,
+            transition: "1s ease",
+          }}
+          onClick={handleMouseLeave}
+        >
+          x
+        </p>
         <ul className="ens-team_list">
           {teamData.map((member, id) => (
             <li

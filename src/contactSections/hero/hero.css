@@ -29,8 +29,9 @@
 }
 
 .contact-hero_wrap {
-  width: 100%;
+  width: 96vw;
   display: grid;
+
   grid-template-columns: 7fr 5fr;
   grid-gap: 20vw;
   -webkit-box-align: center;
@@ -52,15 +53,15 @@
   }
 
   .contact-hero_title {
-    font-size: 40px;
+    font-size: 50px;
     font-weight: 800;
     letter-spacing: 0px;
     padding-left: 1vw;
   }
 
   .contact-hero_subtitle {
-    font-size: 15px;
-    padding-left: 1vw;
+    font-size: 20px;
+    padding-left: 6vw;
   }
 
   .contact-hero_wrap {

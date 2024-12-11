@@ -21,7 +21,7 @@ function HistoryMobile() {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
-  console.log(scrollY);
+  // console.log(scrollY);
   useEffect(() => {
     if (scrollY < 2000) {
       setDotLoaction(0);

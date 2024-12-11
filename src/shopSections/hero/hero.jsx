@@ -7,7 +7,7 @@ function Hero() {
     window.scroll(0, 0);
   }, []);
   return (
-    <section className="shop-hero section__padding">
+    <section className="shop-hero">
       <div className="shop-hero_container">
         <div className="shop-hero_wrap">
           <div className="shop-hero_title">

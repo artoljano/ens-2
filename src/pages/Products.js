@@ -1,6 +1,6 @@
 import React from 'react';
 
-import {Hero, Header, Catalog} from '../shopSections'
+import {Hero, Header, Catalog, MobileCatalog} from '../shopSections'
 
 const Products = () => (
   <div>
@@ -8,6 +8,7 @@ const Products = () => (
     <Hero />
     {/* <Header /> */}
     <Catalog />
+    <MobileCatalog /> 
 
   </div>
 );

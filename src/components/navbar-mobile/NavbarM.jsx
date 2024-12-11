@@ -29,7 +29,7 @@ function NavbarM() {
       document.body.classList.remove("no-scroll");
       document.body.style.overflow = "scroll";
     }
-    console.log(showMenu);
+    // console.log(showMenu);
   });
 
   const [cName, setClassName] = useState(false);
@@ -175,7 +175,7 @@ function NavbarM() {
                     y: 90,
                     transition: {
                       ease: "easeInOut",
-                      delay: 0.4,
+                      delay: 0.6,
                     },
                   }}
                 >
@@ -195,7 +195,7 @@ function NavbarM() {
                     y: 90,
                     transition: {
                       ease: "easeInOut",
-                      delay: 0.2,
+                      delay: 0.4,
                     },
                   }}
                 >
@@ -215,7 +215,7 @@ function NavbarM() {
                     y: 90,
                     transition: {
                       ease: "easeInOut",
-                      delay: 0.1,
+                      delay: 0.2,
                     },
                   }}
                 >
