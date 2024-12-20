@@ -209,7 +209,7 @@ a.hover-color:hover {
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 601px) and (max-width: 768px) {
   .ens-footer {
     display: none;
   }

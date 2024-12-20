@@ -7,8 +7,17 @@ import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
 
 function HistoryMobile() {
+  const elementRef = useRef(null);
+
   const [scrollY, setScrollY] = useState(0);
   const [dotLocation, setDotLoaction] = useState(0);
+  const [width, setWidth] = useState(window.innerWidth);
+
+  useEffect(() => {
+    const handleResize = () => setWidth(window.innerWidth);
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -23,18 +32,36 @@ function HistoryMobile() {
   }, []);
   // console.log(scrollY);
   useEffect(() => {
-    if (scrollY < 2000) {
-      setDotLoaction(0);
-    } else if (scrollY > 3900) {
-      setDotLoaction(1915);
-    } else if (scrollY > 2000 && scrollY < 3900) {
-      setDotLoaction(scrollY - 2000);
+    if (width < 601) {
+      if (scrollY < 2000) {
+        setDotLoaction(0);
+      } else if (scrollY > 3900) {
+        setDotLoaction(1915);
+      } else if (scrollY > 2000 && scrollY < 3900) {
+        setDotLoaction(scrollY - 2000);
+      }
+    } else if (width > 600 && width < 769) {
+      if (scrollY < 2462) {
+        setDotLoaction(0);
+      } else if (scrollY > 4861) {
+        setDotLoaction(2400);
+      } else if (scrollY > 2462 && scrollY < 4861) {
+        setDotLoaction(scrollY - 2462);
+      }
     }
+    // console.log(width);
+    // if (scrollY < 2000) {
+    //   setDotLoaction(0);
+    // } else if (scrollY > 3900) {
+    //   setDotLoaction(1915);
+    // } else if (scrollY > 2000 && scrollY < 3900) {
+    //   setDotLoaction(scrollY - 2000);
+    // }
   }, [scrollY]);
 
   return (
     <div className="historyMobile">
-      <div className="historyMobile-content">
+      <div className="historyMobile-content" value="Show Scroll">
         <div className="historyMobile-right">
           <div className="historyMobile-right_inner">
             <div className="historyMobile-progress" role="scrollbar">

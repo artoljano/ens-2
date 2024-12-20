@@ -219,3 +219,100 @@
     margin-left: 0vw;
   }
 }
+
+@media screen and (min-width: 601px) and (max-width: 768px) {
+  .intro-container {
+    display: flex;
+    flex-direction: column;
+
+    /* border: 8px solid red; */
+  }
+
+  .intro-quote-card {
+    background-color: #1e1e1e;
+    position: relative;
+    margin: 0 auto;
+    margin-top: -35vh;
+    display: flex;
+    flex-direction: row;
+    max-width: 80%;
+    min-height: 70vh;
+    max-height: 80vh;
+    width: 100%;
+    border-radius: 1rem;
+    /* border-radius: 1rem; */
+    /* border: 8px solid red; */
+  }
+
+  .intro-quote-card_quote p {
+    color: #c8c8c8;
+    font-size: 1.3rem;
+
+    font-weight: 600;
+  }
+
+  .intro-quote-card_author h1 {
+    color: white;
+    font-size: 1.3rem;
+  }
+
+  .intro-quote-card_author p {
+    color: #c8c8c8;
+    font-size: 0.9rem;
+  }
+
+  .intro-container-left_members {
+    background-color: #c8c8c8;
+    width: 170px;
+    height: 170px;
+    margin: 0 auto;
+    margin-top: 10vh;
+  }
+
+  .intro-container-left_members h1 {
+    font-size: 5rem;
+    font-weight: 800;
+    margin-left: 6vw;
+  }
+
+  .intro-container-left_members p {
+    font-size: 1.2rem;
+    margin-left: 1vw;
+    font-weight: 600;
+  }
+
+  .intro-card {
+    display: flex;
+    flex-direction: column;
+    min-width: 100%;
+    position: relative;
+    margin: 0 auto;
+    /* margin-left: 45vw; */
+    margin-top: 5vh;
+    /* border: 8px solid orange; */
+  }
+
+  .intro-card img {
+    border-radius: 1rem;
+    margin: 0 auto;
+    min-width: 90%;
+  }
+
+  .intro-card-text {
+    min-width: 80%;
+    margin: 0 auto;
+  }
+
+  .intro-card-text h1 {
+    font-size: 1.5rem;
+    margin-left: 0vw;
+    margin-top: 5vh;
+    font-weight: 600;
+  }
+
+  .intro-card-text p {
+    font-size: 1.1rem;
+    margin-top: 2vh;
+    margin-left: 0vw;
+  }
+}

@@ -18,7 +18,7 @@ function email() {
       <div className="col-start-1 col-end-14 lg:col-start-4 lg:col-end-15">
         <form className="send-email  pb-[calc(30/16*1rem)] pt-16 lg:pb-32 lg:pt-10">
           <div className="flex flex-col gap-y-6 lg:gap-y-[calc(30/16*1rem)]">
-            <div className="grid row -lg:gap-y-6 lg:grid-cols-2 lg:gap-x-5">
+            <div className="email-grid grid row -lg:gap-y-6 lg:grid-cols-2 lg:gap-x-5">
               <div className="flex flex-col">
                 <label className="mb-2" for="html">
                   First name*
@@ -32,7 +32,7 @@ function email() {
                 <input name="lastname" type="text" required="" />
               </div>
             </div>
-            <div className="grid row -lg:gap-y-6 lg:grid-cols-2 lg:gap-x-5">
+            <div className="email-grid grid row -lg:gap-y-6 lg:grid-cols-2 lg:gap-x-5">
               <div className="flex flex-col">
                 <label className="mb-2" for="company">
                   Company*
@@ -46,7 +46,7 @@ function email() {
                 <input name="function" type="text" />
               </div>
             </div>
-            <div className="grid row -lg:gap-y-6 lg:grid-cols-2 lg:gap-x-5">
+            <div className="email-grid grid row -lg:gap-y-6 lg:grid-cols-2 lg:gap-x-5">
               <div className="flex flex-col">
                 <label className="mb-2" for="phone">
                   Phone number*
